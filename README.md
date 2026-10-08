@@ -4,6 +4,11 @@ Targeted Prospect Collateral
 Static demo that hosts a dynamic magnet (to be added). Built with Vite and
 deployed to GitHub Pages on every push to `main`.
 
+The product-category taxonomy (extracted from the blackhawksupply.com mega
+menu) ships as JSON-LD in [public/assets/categories.json](public/assets/categories.json)
+and is referenced from `index.html` via
+`<script type="application/ld+json" src="./assets/categories.json">`.
+
 ## Develop
 
 ```sh
