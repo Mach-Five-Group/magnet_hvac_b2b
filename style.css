@@ -303,14 +303,29 @@ a {
 }
 
 /* ---------- Magnet mount ---------- */
-#magnet-root {
-  min-height: 12rem;
-  display: grid;
-  place-items: center;
-  border: 1px dashed var(--text-muted);
-  border-radius: var(--radius);
-  color: var(--text-muted);
+html { scroll-behavior: smooth; }
+.concept-banner { padding: .5rem 1rem; text-align: center; font-size: .8rem; background: #f4f0ec; color: #4c3a2d; }
+.product-guide { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(2rem, 5vw, 5rem); align-items: center; scroll-margin-top: 6rem; }
+.eyebrow { display: block; color: #9a3b07; font-weight: 750; font-size: .72rem; letter-spacing: .12em; margin-bottom: 1.2rem; }
+.guide-intro h2 { text-align: left; font-size: clamp(2rem, 3.4vw, 3rem); letter-spacing: -.04em; line-height: 1.08; }
+.guide-intro > p { color: var(--text-muted); max-width: 37ch; font-size: 1.06rem; }
+.guide-path { display: grid; gap: .9rem; margin: 2rem 0; font-weight: 600; counter-reset: path; }
+.guide-path span { display: flex; align-items: center; gap: .85rem; }
+.guide-path span::before { counter-increment: path; content: counter(path); display: grid; place-items: center; border: 1px solid #dce2e8; border-radius: 50%; width: 1.85rem; height: 1.85rem; color: #9a3b07; font-size: .8rem; }
+.guide-intro .guide-note { font-size: .88rem; margin-top: 2rem; }
+.guide-note a { display: block; color: #9a3b07; margin-top: .3rem; }
+.guide-frame { min-width: 0; position: relative; border-radius: 20px; box-shadow: 0 16px 60px #0a192f12; background: white; }
+#magnet-root { min-height: 720px; width: 100%; }
+#guide-loading, #guide-fallback { padding: 1rem; color: var(--text-muted); }
+#guide-loading { position: absolute; inset: 1rem 0 auto; text-align: center; }
+#magnet-root:has(#m5m-magnet-inline) ~ #guide-loading { display: none; }
+@media (max-width: 52rem) {
+  .product-guide { grid-template-columns: 1fr; gap: 1.5rem; scroll-margin-top: 11rem; }
+  .guide-intro > p { max-width: 55ch; }
+  .guide-path, .guide-note { display: none; }
+  .guide-intro h2 { font-size: 2rem; }
 }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 /* ---------- Footer ---------- */
 .site-footer {

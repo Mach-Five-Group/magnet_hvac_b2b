@@ -1,0 +1,4363 @@
+{
+  "mag_id": "blackhawk-product-guide",
+  "mag_title": "Blackhawk Supply",
+  "mag_subtitle": "Your product guide",
+  "mag_display_mode": "inline",
+  "mag_trigger": "on_load",
+  "mag_inline_width": "100%",
+  "mag_inline_height": "720px",
+  "mag_presentation_style": "assistant",
+  "mag_theme_mode": "light",
+  "mag_theme_color": "#b7470a",
+  "mag_font": "Arial, Helvetica, sans-serif",
+  "mag_theme_vars": {
+    "surface": "#ffffff",
+    "surface_2": "#f6f7f8",
+    "msg_bg": "#ffffff",
+    "bot_bg": "#f0f3f6",
+    "border": "#dce2e8",
+    "bot_border": "#dce2e8",
+    "text": "#142235",
+    "text_sub": "#4b5a6d",
+    "meta": "#4b5a6d",
+    "radius": "20px",
+    "radius_msg": "14px"
+  },
+  "mag_visual_style": "modern",
+  "mag_motion_style": "fade",
+  "mag_message_style": "soft",
+  "mag_logo_url": "https://mach-five-group.github.io/magnet_hvac_b2b/assets/blackhawk-guide-mark.svg",
+  "mag_home": false,
+  "mag_summary": false,
+  "mag_hide_launcher": true,
+  "mag_visitor_controls": false,
+  "mag_macro_steps": [
+    {
+      "id": "welcome",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s find the right\nstarting point."
+      ],
+      "step_options": [
+        {
+          "label": "HVAC & controls",
+          "goto": "cat_e1bda99d8b0e",
+          "description": "Air quality, heating, cooling and controls",
+          "icon": "build"
+        },
+        {
+          "label": "Plumbing",
+          "goto": "cat_51bfc5bb9004",
+          "description": "Pipes, valves, pumps and water systems",
+          "icon": "home"
+        },
+        {
+          "label": "Electrical",
+          "goto": "cat_ed157486b875",
+          "description": "Power, wiring, switching and networking",
+          "icon": "bolt"
+        },
+        {
+          "label": "Help me choose",
+          "goto": "choose",
+          "description": "Start with the job you’re doing",
+          "icon": "help"
+        },
+        {
+          "label": "I have a part number",
+          "goto": "part-number",
+          "description": "Go straight to Blackhawk’s search",
+          "icon": "search"
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": "Explore Blackhawk Supply’s catalog with a few guided choices."
+    },
+    {
+      "id": "choose",
+      "step_type": "single_select",
+      "step_prompts": [
+        "What are you working on?"
+      ],
+      "step_options": [
+        {
+          "label": "Temperature, airflow or building controls",
+          "goto": "cat_497e6583c492",
+          "description": "Sensors, thermostats and actuators",
+          "icon": ""
+        },
+        {
+          "label": "Heating or cooling equipment",
+          "goto": "cat_10a793be5ff4",
+          "description": "Explore equipment and replacement-part categories",
+          "icon": ""
+        },
+        {
+          "label": "Air quality or ventilation",
+          "goto": "cat_d630f5ced709",
+          "description": "Filtration, humidity and ventilation",
+          "icon": ""
+        },
+        {
+          "label": "Moving or treating water",
+          "goto": "water",
+          "description": "Pumps, piping, filtration and hydronics",
+          "icon": ""
+        },
+        {
+          "label": "Power, wiring or connections",
+          "goto": "cat_ed157486b875",
+          "description": "Find the electrical product family",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "water",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Which part of the water system do you need?"
+      ],
+      "step_options": [
+        {
+          "label": "Move water",
+          "goto": "cat_0d698e2815dd",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe connections",
+          "goto": "cat_70f87824b8f2",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Water filtration",
+          "goto": "cat_68e0471d2ef8",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Hydronic heating",
+          "goto": "cat_22594f71f190",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Browse all plumbing",
+          "goto": "cat_51bfc5bb9004",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "part-number",
+      "step_type": "message",
+      "step_prompts": [
+        "Already have a manufacturer’s part number?",
+        "Search it on Blackhawk Supply to check the current listing and specifications."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Search Blackhawk Supply",
+          "url": "https://blackhawksupply.com/search"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_e1bda99d8b0e",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down HVAC & Controls.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Air Quality & Ventilation",
+          "goto": "cat_d630f5ced709",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Heating & Cooling",
+          "goto": "cat_10a793be5ff4",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "HVAC Controls",
+          "goto": "cat_497e6583c492",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Hydronics",
+          "goto": "cat_22594f71f190",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Instrumentation & Measurement",
+          "goto": "cat_9f99920d963a",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_d630f5ced709",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Air Quality & Ventilation.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Humidifier Accessories",
+          "goto": "cat_7d43433885d8",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Dehumidifiers",
+          "goto": "cat_236588d0c06a",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Venting Supplies & Accessories",
+          "goto": "cat_09a97d3802c8",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Air Curtain Accessories",
+          "goto": "cat_9fa3c32c1616",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Grilles, Registers & Diffusers",
+          "goto": "cat_9d64c5476a4c",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_d630f5ced709_1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_d630f5ced709_1",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Air Quality & Ventilation",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Air Cleaners & Purifiers",
+          "goto": "cat_f0925f682d7e",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Dampers & Louvers",
+          "goto": "cat_33108245d8b4",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Ventilation Fans",
+          "goto": "cat_3e53e514a28f",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Air Filters",
+          "goto": "cat_68e6b75040fe",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Ducts & Fittings",
+          "goto": "cat_78dd6bced664",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_d630f5ced709_2",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_d630f5ced709_2",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Air Quality & Ventilation",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Exhaust Fans",
+          "goto": "cat_eba307bd5535",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Dehumidifier Accessories",
+          "goto": "cat_5076f394447d",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Air Filter Accessories",
+          "goto": "cat_830bc4f186f3",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Humidifiers",
+          "goto": "cat_8279bbec53e5",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Air Curtains",
+          "goto": "cat_7a3f4dfa0d96",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_7d43433885d8",
+      "step_type": "message",
+      "step_prompts": [
+        "Humidifier Accessories is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Humidifier Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-humidifier-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_236588d0c06a",
+      "step_type": "message",
+      "step_prompts": [
+        "Dehumidifiers is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Dehumidifiers",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-dehumidifiers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_09a97d3802c8",
+      "step_type": "message",
+      "step_prompts": [
+        "Venting Supplies & Accessories is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Venting Supplies & Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-venting-supplies-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_9fa3c32c1616",
+      "step_type": "message",
+      "step_prompts": [
+        "Air Curtain Accessories is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Air Curtain Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-curtain-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_9d64c5476a4c",
+      "step_type": "message",
+      "step_prompts": [
+        "Grilles, Registers & Diffusers is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Grilles, Registers & Diffusers",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-grilles-registers-diffusers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_f0925f682d7e",
+      "step_type": "message",
+      "step_prompts": [
+        "Air Cleaners & Purifiers is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Air Cleaners & Purifiers",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-cleaners-purifiers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_33108245d8b4",
+      "step_type": "message",
+      "step_prompts": [
+        "Dampers & Louvers is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Dampers & Louvers",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-dampers-louvers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_3e53e514a28f",
+      "step_type": "message",
+      "step_prompts": [
+        "Ventilation Fans is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Ventilation Fans",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-ventilation-fans"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_68e6b75040fe",
+      "step_type": "message",
+      "step_prompts": [
+        "Air Filters is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Air Filters",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-filters"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_78dd6bced664",
+      "step_type": "message",
+      "step_prompts": [
+        "Ducts & Fittings is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Ducts & Fittings",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-ducts-fittings"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_eba307bd5535",
+      "step_type": "message",
+      "step_prompts": [
+        "Exhaust Fans is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Exhaust Fans",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-exhaust-fans"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_5076f394447d",
+      "step_type": "message",
+      "step_prompts": [
+        "Dehumidifier Accessories is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Dehumidifier Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-dehumidifier-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_830bc4f186f3",
+      "step_type": "message",
+      "step_prompts": [
+        "Air Filter Accessories is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Air Filter Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-filter-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_8279bbec53e5",
+      "step_type": "message",
+      "step_prompts": [
+        "Humidifiers is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Humidifiers",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-humidifiers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_7a3f4dfa0d96",
+      "step_type": "message",
+      "step_prompts": [
+        "Air Curtains is your starting point.",
+        "HVAC & Controls → Air Quality & Ventilation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Air Curtains",
+          "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-curtains"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_10a793be5ff4",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Heating & Cooling.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Heat Pump Accessories",
+          "goto": "cat_8a5a9331b554",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Heater Accessories",
+          "goto": "cat_b2d83965fbdf",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Air Conditioning Systems",
+          "goto": "cat_9ed42498c106",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Heaters",
+          "goto": "cat_c93b80176c24",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Refrigeration",
+          "goto": "cat_85c78da0ea8e",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_10a793be5ff4_1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_10a793be5ff4_1",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Heating & Cooling",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "HVAC Coils",
+          "goto": "cat_5f4f7f1da72d",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Furnace Accessories",
+          "goto": "cat_74f3cb3bfb3b",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Heat Exchanger Accessories",
+          "goto": "cat_417642d9756a",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Heat Pumps",
+          "goto": "cat_437981cbff4a",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Steam Systems",
+          "goto": "cat_b110766c459d",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_10a793be5ff4_2",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_10a793be5ff4_2",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Heating & Cooling",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Furnaces",
+          "goto": "cat_fc36bacff6c2",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Heat Exchangers",
+          "goto": "cat_8d9fb2a21210",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_8a5a9331b554",
+      "step_type": "message",
+      "step_prompts": [
+        "Heat Pump Accessories is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Heat Pump Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-pump-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_b2d83965fbdf",
+      "step_type": "message",
+      "step_prompts": [
+        "Heater Accessories is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Heater Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heater-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_9ed42498c106",
+      "step_type": "message",
+      "step_prompts": [
+        "Air Conditioning Systems is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Air Conditioning Systems",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-air-conditioning-systems"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_c93b80176c24",
+      "step_type": "message",
+      "step_prompts": [
+        "Heaters is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Heaters",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heaters"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_85c78da0ea8e",
+      "step_type": "message",
+      "step_prompts": [
+        "Refrigeration is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Refrigeration",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-refrigeration"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_5f4f7f1da72d",
+      "step_type": "message",
+      "step_prompts": [
+        "HVAC Coils is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse HVAC Coils",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-hvac-coils"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_74f3cb3bfb3b",
+      "step_type": "message",
+      "step_prompts": [
+        "Furnace Accessories is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Furnace Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-furnace-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_417642d9756a",
+      "step_type": "message",
+      "step_prompts": [
+        "Heat Exchanger Accessories is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Heat Exchanger Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-exchanger-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_437981cbff4a",
+      "step_type": "message",
+      "step_prompts": [
+        "Heat Pumps is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Heat Pumps",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-pumps"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_b110766c459d",
+      "step_type": "message",
+      "step_prompts": [
+        "Steam Systems is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Steam Systems",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-steam-systems"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_fc36bacff6c2",
+      "step_type": "message",
+      "step_prompts": [
+        "Furnaces is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Furnaces",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-furnaces"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_8d9fb2a21210",
+      "step_type": "message",
+      "step_prompts": [
+        "Heat Exchangers is your starting point.",
+        "HVAC & Controls → Heating & Cooling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Heat Exchangers",
+          "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-exchangers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_497e6583c492",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down HVAC Controls.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Thermostats",
+          "goto": "cat_873039b21944",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "HVAC Switches",
+          "goto": "cat_c3ecb3cf48d0",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "HVAC Valves",
+          "goto": "cat_c4353cbc7f93",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Control Boards",
+          "goto": "cat_f82906149b42",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "HVAC Controllers",
+          "goto": "cat_c84836c251c9",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_497e6583c492_1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_497e6583c492_1",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in HVAC Controls",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "HVAC Sensors",
+          "goto": "cat_2b1498f816fb",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "HVAC Actuators",
+          "goto": "cat_d028c82c6f44",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "HVAC Actuator Parts & Accessories",
+          "goto": "cat_4b8bad770c47",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Aquastats",
+          "goto": "cat_3dd6aea131f1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_873039b21944",
+      "step_type": "message",
+      "step_prompts": [
+        "Thermostats is your starting point.",
+        "HVAC & Controls → HVAC Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Thermostats",
+          "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-thermostats"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_c3ecb3cf48d0",
+      "step_type": "message",
+      "step_prompts": [
+        "HVAC Switches is your starting point.",
+        "HVAC & Controls → HVAC Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse HVAC Switches",
+          "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-switches"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_c4353cbc7f93",
+      "step_type": "message",
+      "step_prompts": [
+        "HVAC Valves is your starting point.",
+        "HVAC & Controls → HVAC Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse HVAC Valves",
+          "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-valves"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_f82906149b42",
+      "step_type": "message",
+      "step_prompts": [
+        "Control Boards is your starting point.",
+        "HVAC & Controls → HVAC Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Control Boards",
+          "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-control-boards"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_c84836c251c9",
+      "step_type": "message",
+      "step_prompts": [
+        "HVAC Controllers is your starting point.",
+        "HVAC & Controls → HVAC Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse HVAC Controllers",
+          "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-controllers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_2b1498f816fb",
+      "step_type": "message",
+      "step_prompts": [
+        "HVAC Sensors is your starting point.",
+        "HVAC & Controls → HVAC Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse HVAC Sensors",
+          "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-sensors"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_d028c82c6f44",
+      "step_type": "message",
+      "step_prompts": [
+        "HVAC Actuators is your starting point.",
+        "HVAC & Controls → HVAC Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse HVAC Actuators",
+          "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-actuators"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_4b8bad770c47",
+      "step_type": "message",
+      "step_prompts": [
+        "HVAC Actuator Parts & Accessories is your starting point.",
+        "HVAC & Controls → HVAC Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse HVAC Actuator Parts & Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-actuator-parts-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_3dd6aea131f1",
+      "step_type": "message",
+      "step_prompts": [
+        "Aquastats is your starting point.",
+        "HVAC & Controls → HVAC Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Aquastats",
+          "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-aquastats"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_22594f71f190",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Hydronics.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Boiler Accessories",
+          "goto": "cat_1b038b60e1e0",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Radiant Heating Systems",
+          "goto": "cat_3c28521e0637",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Boilers",
+          "goto": "cat_fab786d69a04",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Fan Convectors",
+          "goto": "cat_a1a52a190575",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Hydronic Manifolds",
+          "goto": "cat_b5f82293eee6",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_22594f71f190_1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_22594f71f190_1",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Hydronics",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Pumps & Circulators",
+          "goto": "cat_6dd34b29f16f",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Air & Dirt Separation",
+          "goto": "cat_a2a98871cc4f",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Expansion Tanks",
+          "goto": "cat_b2b8c4d7209b",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_1b038b60e1e0",
+      "step_type": "message",
+      "step_prompts": [
+        "Boiler Accessories is your starting point.",
+        "HVAC & Controls → Hydronics\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Boiler Accessories",
+          "url": "https://blackhawksupply.com/collections/hvac-hydronics-boiler-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_3c28521e0637",
+      "step_type": "message",
+      "step_prompts": [
+        "Radiant Heating Systems is your starting point.",
+        "HVAC & Controls → Hydronics\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Radiant Heating Systems",
+          "url": "https://blackhawksupply.com/collections/hvac-hydronics-radiant-heating-systems"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_fab786d69a04",
+      "step_type": "message",
+      "step_prompts": [
+        "Boilers is your starting point.",
+        "HVAC & Controls → Hydronics\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Boilers",
+          "url": "https://blackhawksupply.com/collections/hvac-hydronics-boilers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_a1a52a190575",
+      "step_type": "message",
+      "step_prompts": [
+        "Fan Convectors is your starting point.",
+        "HVAC & Controls → Hydronics\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Fan Convectors",
+          "url": "https://blackhawksupply.com/collections/hvac-hydronics-fan-convectors"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_b5f82293eee6",
+      "step_type": "message",
+      "step_prompts": [
+        "Hydronic Manifolds is your starting point.",
+        "HVAC & Controls → Hydronics\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Hydronic Manifolds",
+          "url": "https://blackhawksupply.com/collections/hvac-hydronics-hydronic-manifolds"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_6dd34b29f16f",
+      "step_type": "message",
+      "step_prompts": [
+        "Pumps & Circulators is your starting point.",
+        "HVAC & Controls → Hydronics\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pumps & Circulators",
+          "url": "https://blackhawksupply.com/collections/hvac-hydronics-pumps-circulators"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_a2a98871cc4f",
+      "step_type": "message",
+      "step_prompts": [
+        "Air & Dirt Separation is your starting point.",
+        "HVAC & Controls → Hydronics\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Air & Dirt Separation",
+          "url": "https://blackhawksupply.com/collections/hvac-hydronics-air-dirt-separation"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_b2b8c4d7209b",
+      "step_type": "message",
+      "step_prompts": [
+        "Expansion Tanks is your starting point.",
+        "HVAC & Controls → Hydronics\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Expansion Tanks",
+          "url": "https://blackhawksupply.com/collections/hvac-hydronics-expansion-tanks"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_9f99920d963a",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Instrumentation & Measurement.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Flow & Level Measurement",
+          "goto": "cat_9e0f89fbdd8e",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pressure & Temperature Measurement",
+          "goto": "cat_8c62f3fb13e6",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_9e0f89fbdd8e",
+      "step_type": "message",
+      "step_prompts": [
+        "Flow & Level Measurement is your starting point.",
+        "HVAC & Controls → Instrumentation & Measurement\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Flow & Level Measurement",
+          "url": "https://blackhawksupply.com/collections/hvac-instrumentation-measurement-flow-level-measurement"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_8c62f3fb13e6",
+      "step_type": "message",
+      "step_prompts": [
+        "Pressure & Temperature Measurement is your starting point.",
+        "HVAC & Controls → Instrumentation & Measurement\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pressure & Temperature Measurement",
+          "url": "https://blackhawksupply.com/collections/hvac-instrumentation-measurement-pressure-temperature-measurement"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_51bfc5bb9004",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Plumbing.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Pipes & Fittings",
+          "goto": "cat_70f87824b8f2",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Water Filtration",
+          "goto": "cat_68e0471d2ef8",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pumps",
+          "goto": "cat_0d698e2815dd",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Plumbing Repair & Installation",
+          "goto": "cat_4f53e0d6b427",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Plumbing Fixtures & Drains",
+          "goto": "cat_ab618ff3912b",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_51bfc5bb9004_1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_51bfc5bb9004_1",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Plumbing",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Hoses & Fittings",
+          "goto": "cat_94eaaa45c679",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Water Heaters",
+          "goto": "cat_cab6d7f267c4",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Water Heater Parts & Accessories",
+          "goto": "cat_31c36d05f946",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_70f87824b8f2",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Pipes & Fittings.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Pipe Bushings",
+          "goto": "cat_0fb62391be9f",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe Tees",
+          "goto": "cat_3ecf1700776c",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pneumatic Fittings",
+          "goto": "cat_9c2c3a492f54",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe Adapters",
+          "goto": "cat_b3be9c54ca77",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Hydraulic Fittings",
+          "goto": "cat_a2fa0c74301b",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_70f87824b8f2_1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_70f87824b8f2_1",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Pipes & Fittings",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Bulkhead Fittings",
+          "goto": "cat_228b819820ae",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipes & Tubes",
+          "goto": "cat_fe69a8540934",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe Unions",
+          "goto": "cat_2c89c8008047",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe Nipples",
+          "goto": "cat_f70028956783",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe Elbows",
+          "goto": "cat_285d303b4db2",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_70f87824b8f2_2",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_70f87824b8f2_2",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Pipes & Fittings",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Pipe Saddles & Saddle Tees",
+          "goto": "cat_ab6af4dc43d7",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe Flanges",
+          "goto": "cat_92e7f40588f5",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe Couplings",
+          "goto": "cat_837b5854e9b3",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe Reducers",
+          "goto": "cat_bafc50112014",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe Caps & Plugs",
+          "goto": "cat_c4ad753e4d54",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_70f87824b8f2_3",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_70f87824b8f2_3",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Pipes & Fittings",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Pipe Cross Fittings",
+          "goto": "cat_f1999592c7cd",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pipe Wyes",
+          "goto": "cat_4e514527ebfe",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_0fb62391be9f",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Bushings is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Bushings",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-bushings"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_3ecf1700776c",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Tees is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Tees",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-tees"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_9c2c3a492f54",
+      "step_type": "message",
+      "step_prompts": [
+        "Pneumatic Fittings is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pneumatic Fittings",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pneumatic-fittings"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_b3be9c54ca77",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Adapters is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Adapters",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-adapters"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_a2fa0c74301b",
+      "step_type": "message",
+      "step_prompts": [
+        "Hydraulic Fittings is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Hydraulic Fittings",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-hydraulic-fittings"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_228b819820ae",
+      "step_type": "message",
+      "step_prompts": [
+        "Bulkhead Fittings is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Bulkhead Fittings",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-bulkhead-fittings"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_fe69a8540934",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipes & Tubes is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipes & Tubes",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipes-tubes"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_2c89c8008047",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Unions is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Unions",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-unions"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_f70028956783",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Nipples is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Nipples",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-nipples"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_285d303b4db2",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Elbows is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Elbows",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-elbows"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_ab6af4dc43d7",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Saddles & Saddle Tees is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Saddles & Saddle Tees",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-saddles-saddle-tees"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_92e7f40588f5",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Flanges is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Flanges",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-flanges"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_837b5854e9b3",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Couplings is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Couplings",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-couplings"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_bafc50112014",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Reducers is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Reducers",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-reducers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_c4ad753e4d54",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Caps & Plugs is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Caps & Plugs",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-caps-plugs"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_f1999592c7cd",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Cross Fittings is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Cross Fittings",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-cross-fittings"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_4e514527ebfe",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Wyes is your starting point.",
+        "Plumbing → Pipes & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Wyes",
+          "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-wyes"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_68e0471d2ef8",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Water Filtration.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Filter Cartridges",
+          "goto": "cat_11c8058de284",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Strainer & Filter Accessories",
+          "goto": "cat_e540096be0eb",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Strainers",
+          "goto": "cat_54010fa6b8ea",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Filter Bags",
+          "goto": "cat_91017e0e58df",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_11c8058de284",
+      "step_type": "message",
+      "step_prompts": [
+        "Filter Cartridges is your starting point.",
+        "Plumbing → Water Filtration\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Filter Cartridges",
+          "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-filter-cartridges"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_e540096be0eb",
+      "step_type": "message",
+      "step_prompts": [
+        "Strainer & Filter Accessories is your starting point.",
+        "Plumbing → Water Filtration\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Strainer & Filter Accessories",
+          "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-strainer-filter-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_54010fa6b8ea",
+      "step_type": "message",
+      "step_prompts": [
+        "Strainers is your starting point.",
+        "Plumbing → Water Filtration\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Strainers",
+          "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-strainers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_91017e0e58df",
+      "step_type": "message",
+      "step_prompts": [
+        "Filter Bags is your starting point.",
+        "Plumbing → Water Filtration\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Filter Bags",
+          "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-filter-bags"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_0d698e2815dd",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Pumps.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Centrifugal Pumps",
+          "goto": "cat_fc1b2d3fc8a1",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Standard Pump Parts & Accessories",
+          "goto": "cat_a8b4e5141d89",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pump Repair Kits",
+          "goto": "cat_208d188503e3",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Diaphragm Pumps",
+          "goto": "cat_a8c5ad684676",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_fc1b2d3fc8a1",
+      "step_type": "message",
+      "step_prompts": [
+        "Centrifugal Pumps is your starting point.",
+        "Plumbing → Pumps\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Centrifugal Pumps",
+          "url": "https://blackhawksupply.com/collections/plumbing-pumps-centrifugal-pumps"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_a8b4e5141d89",
+      "step_type": "message",
+      "step_prompts": [
+        "Standard Pump Parts & Accessories is your starting point.",
+        "Plumbing → Pumps\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Standard Pump Parts & Accessories",
+          "url": "https://blackhawksupply.com/collections/plumbing-pumps-standard-pump-parts-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_208d188503e3",
+      "step_type": "message",
+      "step_prompts": [
+        "Pump Repair Kits is your starting point.",
+        "Plumbing → Pumps\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pump Repair Kits",
+          "url": "https://blackhawksupply.com/collections/plumbing-pumps-pump-repair-kits"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_a8c5ad684676",
+      "step_type": "message",
+      "step_prompts": [
+        "Diaphragm Pumps is your starting point.",
+        "Plumbing → Pumps\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Diaphragm Pumps",
+          "url": "https://blackhawksupply.com/collections/plumbing-pumps-diaphragm-pumps"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_4f53e0d6b427",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Plumbing Repair & Installation.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Pipe Hangers & Supports",
+          "goto": "cat_982b126b188a",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Gaskets & Seals",
+          "goto": "cat_8fa4792adab1",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Thread Sealants & Tapes",
+          "goto": "cat_8cf57a511edc",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Solvent Cements",
+          "goto": "cat_30459f0c2d99",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_982b126b188a",
+      "step_type": "message",
+      "step_prompts": [
+        "Pipe Hangers & Supports is your starting point.",
+        "Plumbing → Plumbing Repair & Installation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pipe Hangers & Supports",
+          "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-pipe-hangers-supports"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_8fa4792adab1",
+      "step_type": "message",
+      "step_prompts": [
+        "Gaskets & Seals is your starting point.",
+        "Plumbing → Plumbing Repair & Installation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Gaskets & Seals",
+          "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-gaskets-seals"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_8cf57a511edc",
+      "step_type": "message",
+      "step_prompts": [
+        "Thread Sealants & Tapes is your starting point.",
+        "Plumbing → Plumbing Repair & Installation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Thread Sealants & Tapes",
+          "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-thread-sealants-tapes"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_30459f0c2d99",
+      "step_type": "message",
+      "step_prompts": [
+        "Solvent Cements is your starting point.",
+        "Plumbing → Plumbing Repair & Installation\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Solvent Cements",
+          "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-solvent-cements"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_ab618ff3912b",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Plumbing Fixtures & Drains.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Appliance Supply Line Connectors",
+          "goto": "cat_3d493bd3a53e",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Faucets",
+          "goto": "cat_c765fa5b3528",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Sink Drains",
+          "goto": "cat_ba3cc3d1f509",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_3d493bd3a53e",
+      "step_type": "message",
+      "step_prompts": [
+        "Appliance Supply Line Connectors is your starting point.",
+        "Plumbing → Plumbing Fixtures & Drains\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Appliance Supply Line Connectors",
+          "url": "https://blackhawksupply.com/collections/plumbing-plumbing-fixtures-drains-appliance-supply-line-connectors"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_c765fa5b3528",
+      "step_type": "message",
+      "step_prompts": [
+        "Faucets is your starting point.",
+        "Plumbing → Plumbing Fixtures & Drains\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Faucets",
+          "url": "https://blackhawksupply.com/collections/plumbing-plumbing-fixtures-drains-faucets"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_ba3cc3d1f509",
+      "step_type": "message",
+      "step_prompts": [
+        "Sink Drains is your starting point.",
+        "Plumbing → Plumbing Fixtures & Drains\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Sink Drains",
+          "url": "https://blackhawksupply.com/collections/plumbing-plumbing-fixtures-drains-sink-drains"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_94eaaa45c679",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Hoses & Fittings.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Hoses & Hose Assemblies",
+          "goto": "cat_04cf6975058f",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Hose Fittings",
+          "goto": "cat_f628300a87bc",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_04cf6975058f",
+      "step_type": "message",
+      "step_prompts": [
+        "Hoses & Hose Assemblies is your starting point.",
+        "Plumbing → Hoses & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Hoses & Hose Assemblies",
+          "url": "https://blackhawksupply.com/collections/plumbing-hoses-fittings-hoses-hose-assemblies"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_f628300a87bc",
+      "step_type": "message",
+      "step_prompts": [
+        "Hose Fittings is your starting point.",
+        "Plumbing → Hoses & Fittings\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Hose Fittings",
+          "url": "https://blackhawksupply.com/collections/plumbing-hoses-fittings-hose-fittings"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_cab6d7f267c4",
+      "step_type": "message",
+      "step_prompts": [
+        "Water Heaters is your starting point.",
+        "Plumbing\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Water Heaters",
+          "url": "https://blackhawksupply.com/collections/plumbing-water-heaters"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_31c36d05f946",
+      "step_type": "message",
+      "step_prompts": [
+        "Water Heater Parts & Accessories is your starting point.",
+        "Plumbing\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Water Heater Parts & Accessories",
+          "url": "https://blackhawksupply.com/collections/plumbing-water-heater-parts-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_ed157486b875",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Electrical.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Switches",
+          "goto": "cat_b145871066b8",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Power Monitoring",
+          "goto": "cat_fa091b8c84f8",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Wire & Cable",
+          "goto": "cat_3449538a351f",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Power Supplies",
+          "goto": "cat_2c6d53a9b37a",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Power Distribution",
+          "goto": "cat_9584edca396c",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_ed157486b875_1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_ed157486b875_1",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Electrical",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Network & Wireless",
+          "goto": "cat_da87710e4982",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Motors & Motor Controls",
+          "goto": "cat_84811f30f434",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Enclosures & Cabinets",
+          "goto": "cat_036758a8eba9",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Relays & Contactors",
+          "goto": "cat_86ece65ff5bd",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Lighting",
+          "goto": "cat_f55a91c40d64",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_ed157486b875_2",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_ed157486b875_2",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Electrical",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Connectors",
+          "goto": "cat_87bf0b106fea",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Transformers",
+          "goto": "cat_fad49fba3231",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Resistors & Inductors",
+          "goto": "cat_f1d3f522543e",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Alarms, Security & Signaling",
+          "goto": "cat_4d2c77d33968",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_b145871066b8",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Switches.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Rocker Switches",
+          "goto": "cat_6cf8122d62f8",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Door & Interlock Switches",
+          "goto": "cat_0866e8195f1c",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Pushbutton Switches",
+          "goto": "cat_4ca720177e45",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Control Stations",
+          "goto": "cat_b95f8f729f81",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Switch Accessories & Components",
+          "goto": "cat_4440a9a482ff",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_b145871066b8_1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_b145871066b8_1",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Switches",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Key Switches & Selector Switches",
+          "goto": "cat_08cfa3a309f2",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Foot Switches",
+          "goto": "cat_4278f8ee25db",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Toggle & Slide Switches",
+          "goto": "cat_0da0c92a3ca6",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Rotary Switches",
+          "goto": "cat_6d3a8b8a67d9",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Limit & Position Switches",
+          "goto": "cat_6120ef71a935",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_6cf8122d62f8",
+      "step_type": "message",
+      "step_prompts": [
+        "Rocker Switches is your starting point.",
+        "Electrical → Switches\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Rocker Switches",
+          "url": "https://blackhawksupply.com/collections/electrical-switches-rocker-switches"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_0866e8195f1c",
+      "step_type": "message",
+      "step_prompts": [
+        "Door & Interlock Switches is your starting point.",
+        "Electrical → Switches\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Door & Interlock Switches",
+          "url": "https://blackhawksupply.com/collections/electrical-switches-door-interlock-switches"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_4ca720177e45",
+      "step_type": "message",
+      "step_prompts": [
+        "Pushbutton Switches is your starting point.",
+        "Electrical → Switches\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Pushbutton Switches",
+          "url": "https://blackhawksupply.com/collections/electrical-switches-pushbutton-switches"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_b95f8f729f81",
+      "step_type": "message",
+      "step_prompts": [
+        "Control Stations is your starting point.",
+        "Electrical → Switches\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Control Stations",
+          "url": "https://blackhawksupply.com/collections/electrical-switches-control-stations"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_4440a9a482ff",
+      "step_type": "message",
+      "step_prompts": [
+        "Switch Accessories & Components is your starting point.",
+        "Electrical → Switches\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Switch Accessories & Components",
+          "url": "https://blackhawksupply.com/collections/electrical-switches-switch-accessories-components"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_08cfa3a309f2",
+      "step_type": "message",
+      "step_prompts": [
+        "Key Switches & Selector Switches is your starting point.",
+        "Electrical → Switches\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Key Switches & Selector Switches",
+          "url": "https://blackhawksupply.com/collections/electrical-switches-key-switches-selector-switches"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_4278f8ee25db",
+      "step_type": "message",
+      "step_prompts": [
+        "Foot Switches is your starting point.",
+        "Electrical → Switches\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Foot Switches",
+          "url": "https://blackhawksupply.com/collections/electrical-switches-foot-switches"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_0da0c92a3ca6",
+      "step_type": "message",
+      "step_prompts": [
+        "Toggle & Slide Switches is your starting point.",
+        "Electrical → Switches\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Toggle & Slide Switches",
+          "url": "https://blackhawksupply.com/collections/electrical-switches-toggle-slide-switches"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_6d3a8b8a67d9",
+      "step_type": "message",
+      "step_prompts": [
+        "Rotary Switches is your starting point.",
+        "Electrical → Switches\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Rotary Switches",
+          "url": "https://blackhawksupply.com/collections/electrical-switches-rotary-switches"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_6120ef71a935",
+      "step_type": "message",
+      "step_prompts": [
+        "Limit & Position Switches is your starting point.",
+        "Electrical → Switches\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Limit & Position Switches",
+          "url": "https://blackhawksupply.com/collections/electrical-switches-limit-position-switches"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_fa091b8c84f8",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Power Monitoring.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Current Transformers",
+          "goto": "cat_4e31a2761f7e",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Energy & Power Meters",
+          "goto": "cat_5e4d858d66f0",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Panel Meters",
+          "goto": "cat_c75c3dbe289f",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Electrical Testers",
+          "goto": "cat_2a11027acc3e",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Data Loggers",
+          "goto": "cat_9ab180ad930d",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_fa091b8c84f8_1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_fa091b8c84f8_1",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Power Monitoring",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Multimeters",
+          "goto": "cat_eb66a10f09dd",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Clamp Meters",
+          "goto": "cat_7012f6a29ad1",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Current Transducers",
+          "goto": "cat_f5dbc00c66cd",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_4e31a2761f7e",
+      "step_type": "message",
+      "step_prompts": [
+        "Current Transformers is your starting point.",
+        "Electrical → Power Monitoring\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Current Transformers",
+          "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-current-transformers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_5e4d858d66f0",
+      "step_type": "message",
+      "step_prompts": [
+        "Energy & Power Meters is your starting point.",
+        "Electrical → Power Monitoring\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Energy & Power Meters",
+          "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-energy-power-meters"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_c75c3dbe289f",
+      "step_type": "message",
+      "step_prompts": [
+        "Panel Meters is your starting point.",
+        "Electrical → Power Monitoring\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Panel Meters",
+          "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-panel-meters"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_2a11027acc3e",
+      "step_type": "message",
+      "step_prompts": [
+        "Electrical Testers is your starting point.",
+        "Electrical → Power Monitoring\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Electrical Testers",
+          "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-electrical-testers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_9ab180ad930d",
+      "step_type": "message",
+      "step_prompts": [
+        "Data Loggers is your starting point.",
+        "Electrical → Power Monitoring\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Data Loggers",
+          "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-data-loggers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_eb66a10f09dd",
+      "step_type": "message",
+      "step_prompts": [
+        "Multimeters is your starting point.",
+        "Electrical → Power Monitoring\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Multimeters",
+          "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-multimeters"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_7012f6a29ad1",
+      "step_type": "message",
+      "step_prompts": [
+        "Clamp Meters is your starting point.",
+        "Electrical → Power Monitoring\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Clamp Meters",
+          "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-clamp-meters"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_f5dbc00c66cd",
+      "step_type": "message",
+      "step_prompts": [
+        "Current Transducers is your starting point.",
+        "Electrical → Power Monitoring\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Current Transducers",
+          "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-current-transducers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_3449538a351f",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Wire & Cable.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Data & Communication Cables",
+          "goto": "cat_8a60a9ce244f",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Cable Management",
+          "goto": "cat_dc575126964d",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Instrumentation Cables",
+          "goto": "cat_390f52fac69e",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Power Cables",
+          "goto": "cat_cc50025f1a7b",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Cable Assemblies",
+          "goto": "cat_522f9cb06ce4",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "More categories",
+          "goto": "cat_3449538a351f_1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_3449538a351f_1",
+      "step_type": "single_select",
+      "step_prompts": [
+        "More in Wire & Cable",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Control Cables",
+          "goto": "cat_49187abf0a46",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_8a60a9ce244f",
+      "step_type": "message",
+      "step_prompts": [
+        "Data & Communication Cables is your starting point.",
+        "Electrical → Wire & Cable\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Data & Communication Cables",
+          "url": "https://blackhawksupply.com/collections/electrical-wire-cable-data-communication-cables"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_dc575126964d",
+      "step_type": "message",
+      "step_prompts": [
+        "Cable Management is your starting point.",
+        "Electrical → Wire & Cable\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Cable Management",
+          "url": "https://blackhawksupply.com/collections/electrical-wire-cable-cable-management"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_390f52fac69e",
+      "step_type": "message",
+      "step_prompts": [
+        "Instrumentation Cables is your starting point.",
+        "Electrical → Wire & Cable\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Instrumentation Cables",
+          "url": "https://blackhawksupply.com/collections/electrical-wire-cable-instrumentation-cables"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_cc50025f1a7b",
+      "step_type": "message",
+      "step_prompts": [
+        "Power Cables is your starting point.",
+        "Electrical → Wire & Cable\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Power Cables",
+          "url": "https://blackhawksupply.com/collections/electrical-wire-cable-power-cables"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_522f9cb06ce4",
+      "step_type": "message",
+      "step_prompts": [
+        "Cable Assemblies is your starting point.",
+        "Electrical → Wire & Cable\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Cable Assemblies",
+          "url": "https://blackhawksupply.com/collections/electrical-wire-cable-cable-assemblies"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_49187abf0a46",
+      "step_type": "message",
+      "step_prompts": [
+        "Control Cables is your starting point.",
+        "Electrical → Wire & Cable\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Control Cables",
+          "url": "https://blackhawksupply.com/collections/electrical-wire-cable-control-cables"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_2c6d53a9b37a",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Power Supplies.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "UPS",
+          "goto": "cat_149808386003",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Power Supply Accessories",
+          "goto": "cat_417b122e4f74",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "AC Power Supplies",
+          "goto": "cat_8be01e5656a9",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "DC Power Supplies",
+          "goto": "cat_55889b93516c",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_149808386003",
+      "step_type": "message",
+      "step_prompts": [
+        "UPS is your starting point.",
+        "Electrical → Power Supplies\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse UPS",
+          "url": "https://blackhawksupply.com/collections/electrical-power-supplies-ups"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_417b122e4f74",
+      "step_type": "message",
+      "step_prompts": [
+        "Power Supply Accessories is your starting point.",
+        "Electrical → Power Supplies\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Power Supply Accessories",
+          "url": "https://blackhawksupply.com/collections/electrical-power-supplies-power-supply-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_8be01e5656a9",
+      "step_type": "message",
+      "step_prompts": [
+        "AC Power Supplies is your starting point.",
+        "Electrical → Power Supplies\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse AC Power Supplies",
+          "url": "https://blackhawksupply.com/collections/electrical-power-supplies-ac-power-supplies"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_55889b93516c",
+      "step_type": "message",
+      "step_prompts": [
+        "DC Power Supplies is your starting point.",
+        "Electrical → Power Supplies\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse DC Power Supplies",
+          "url": "https://blackhawksupply.com/collections/electrical-power-supplies-dc-power-supplies"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_9584edca396c",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Power Distribution.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Panelboards & Load Centers",
+          "goto": "cat_0206ae75d56e",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Power Protection",
+          "goto": "cat_e9b28dec1af1",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Circuit Protection Accessories",
+          "goto": "cat_caffac42c612",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Power Distribution Units",
+          "goto": "cat_192c82a9222f",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_0206ae75d56e",
+      "step_type": "message",
+      "step_prompts": [
+        "Panelboards & Load Centers is your starting point.",
+        "Electrical → Power Distribution\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Panelboards & Load Centers",
+          "url": "https://blackhawksupply.com/collections/electrical-power-distribution-panelboards-load-centers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_e9b28dec1af1",
+      "step_type": "message",
+      "step_prompts": [
+        "Power Protection is your starting point.",
+        "Electrical → Power Distribution\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Power Protection",
+          "url": "https://blackhawksupply.com/collections/electrical-power-distribution-power-protection"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_caffac42c612",
+      "step_type": "message",
+      "step_prompts": [
+        "Circuit Protection Accessories is your starting point.",
+        "Electrical → Power Distribution\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Circuit Protection Accessories",
+          "url": "https://blackhawksupply.com/collections/electrical-power-distribution-circuit-protection-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_192c82a9222f",
+      "step_type": "message",
+      "step_prompts": [
+        "Power Distribution Units is your starting point.",
+        "Electrical → Power Distribution\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Power Distribution Units",
+          "url": "https://blackhawksupply.com/collections/electrical-power-distribution-power-distribution-units"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_da87710e4982",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Network & Wireless.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Network Devices",
+          "goto": "cat_a51ff9bd2fd0",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Wireless Communication Devices",
+          "goto": "cat_1a7c7350dc06",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "I/O Modules",
+          "goto": "cat_9e4909ca1a2f",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Media Converters",
+          "goto": "cat_bf1154c0e8d2",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_a51ff9bd2fd0",
+      "step_type": "message",
+      "step_prompts": [
+        "Network Devices is your starting point.",
+        "Electrical → Network & Wireless\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Network Devices",
+          "url": "https://blackhawksupply.com/collections/electrical-network-wireless-network-devices"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_1a7c7350dc06",
+      "step_type": "message",
+      "step_prompts": [
+        "Wireless Communication Devices is your starting point.",
+        "Electrical → Network & Wireless\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Wireless Communication Devices",
+          "url": "https://blackhawksupply.com/collections/electrical-network-wireless-wireless-communication-devices"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_9e4909ca1a2f",
+      "step_type": "message",
+      "step_prompts": [
+        "I/O Modules is your starting point.",
+        "Electrical → Network & Wireless\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse I/O Modules",
+          "url": "https://blackhawksupply.com/collections/electrical-network-wireless-i-o-modules"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_bf1154c0e8d2",
+      "step_type": "message",
+      "step_prompts": [
+        "Media Converters is your starting point.",
+        "Electrical → Network & Wireless\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Media Converters",
+          "url": "https://blackhawksupply.com/collections/electrical-network-wireless-media-converters"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_84811f30f434",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Motors & Motor Controls.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Motors",
+          "goto": "cat_0b5d363704b2",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Motor Capacitors",
+          "goto": "cat_48142d06c2a6",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Motor Starters",
+          "goto": "cat_63ce8eaf01ed",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Variable Frequency Drives",
+          "goto": "cat_cd01b8067af3",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_0b5d363704b2",
+      "step_type": "message",
+      "step_prompts": [
+        "Motors is your starting point.",
+        "Electrical → Motors & Motor Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Motors",
+          "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-motors"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_48142d06c2a6",
+      "step_type": "message",
+      "step_prompts": [
+        "Motor Capacitors is your starting point.",
+        "Electrical → Motors & Motor Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Motor Capacitors",
+          "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-motor-capacitors"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_63ce8eaf01ed",
+      "step_type": "message",
+      "step_prompts": [
+        "Motor Starters is your starting point.",
+        "Electrical → Motors & Motor Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Motor Starters",
+          "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-motor-starters"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_cd01b8067af3",
+      "step_type": "message",
+      "step_prompts": [
+        "Variable Frequency Drives is your starting point.",
+        "Electrical → Motors & Motor Controls\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Variable Frequency Drives",
+          "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-variable-frequency-drives"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_036758a8eba9",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Enclosures & Cabinets.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Junction Boxes",
+          "goto": "cat_3d621617a991",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Racks & Cabinets",
+          "goto": "cat_8bac0df684c3",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Electrical Enclosures",
+          "goto": "cat_accad070e69e",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Electrical Enclosure Accessories",
+          "goto": "cat_466d274c6c74",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_3d621617a991",
+      "step_type": "message",
+      "step_prompts": [
+        "Junction Boxes is your starting point.",
+        "Electrical → Enclosures & Cabinets\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Junction Boxes",
+          "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-junction-boxes"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_8bac0df684c3",
+      "step_type": "message",
+      "step_prompts": [
+        "Racks & Cabinets is your starting point.",
+        "Electrical → Enclosures & Cabinets\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Racks & Cabinets",
+          "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-racks-cabinets"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_accad070e69e",
+      "step_type": "message",
+      "step_prompts": [
+        "Electrical Enclosures is your starting point.",
+        "Electrical → Enclosures & Cabinets\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Electrical Enclosures",
+          "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-electrical-enclosures"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_466d274c6c74",
+      "step_type": "message",
+      "step_prompts": [
+        "Electrical Enclosure Accessories is your starting point.",
+        "Electrical → Enclosures & Cabinets\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Electrical Enclosure Accessories",
+          "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-electrical-enclosure-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_86ece65ff5bd",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Relays & Contactors.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Relays",
+          "goto": "cat_e06a3e1be428",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Contactors",
+          "goto": "cat_290d33820c73",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Contactor Accessories",
+          "goto": "cat_ddce564d8844",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_e06a3e1be428",
+      "step_type": "message",
+      "step_prompts": [
+        "Relays is your starting point.",
+        "Electrical → Relays & Contactors\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Relays",
+          "url": "https://blackhawksupply.com/collections/electrical-relays-contactors-relays"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_290d33820c73",
+      "step_type": "message",
+      "step_prompts": [
+        "Contactors is your starting point.",
+        "Electrical → Relays & Contactors\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Contactors",
+          "url": "https://blackhawksupply.com/collections/electrical-relays-contactors-contactors"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_ddce564d8844",
+      "step_type": "message",
+      "step_prompts": [
+        "Contactor Accessories is your starting point.",
+        "Electrical → Relays & Contactors\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Contactor Accessories",
+          "url": "https://blackhawksupply.com/collections/electrical-relays-contactors-contactor-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_f55a91c40d64",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Lighting.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Lighting Accessories",
+          "goto": "cat_8c0c4de71f2d",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Lamps",
+          "goto": "cat_acbbca19acff",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Lighting Fixtures",
+          "goto": "cat_dd80ffa14a12",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_8c0c4de71f2d",
+      "step_type": "message",
+      "step_prompts": [
+        "Lighting Accessories is your starting point.",
+        "Electrical → Lighting\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Lighting Accessories",
+          "url": "https://blackhawksupply.com/collections/electrical-lighting-lighting-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_acbbca19acff",
+      "step_type": "message",
+      "step_prompts": [
+        "Lamps is your starting point.",
+        "Electrical → Lighting\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Lamps",
+          "url": "https://blackhawksupply.com/collections/electrical-lighting-lamps"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_dd80ffa14a12",
+      "step_type": "message",
+      "step_prompts": [
+        "Lighting Fixtures is your starting point.",
+        "Electrical → Lighting\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Lighting Fixtures",
+          "url": "https://blackhawksupply.com/collections/electrical-lighting-lighting-fixtures"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_87bf0b106fea",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Connectors.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Connectors & Accessories",
+          "goto": "cat_6d16fd525c7b",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Wire Terminals & Splices",
+          "goto": "cat_1e43cff7af99",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Terminal Blocks & Accessories",
+          "goto": "cat_95507e25427f",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_6d16fd525c7b",
+      "step_type": "message",
+      "step_prompts": [
+        "Connectors & Accessories is your starting point.",
+        "Electrical → Connectors\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Connectors & Accessories",
+          "url": "https://blackhawksupply.com/collections/electrical-connectors-connectors-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_1e43cff7af99",
+      "step_type": "message",
+      "step_prompts": [
+        "Wire Terminals & Splices is your starting point.",
+        "Electrical → Connectors\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Wire Terminals & Splices",
+          "url": "https://blackhawksupply.com/collections/electrical-connectors-wire-terminals-splices"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_95507e25427f",
+      "step_type": "message",
+      "step_prompts": [
+        "Terminal Blocks & Accessories is your starting point.",
+        "Electrical → Connectors\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Terminal Blocks & Accessories",
+          "url": "https://blackhawksupply.com/collections/electrical-connectors-terminal-blocks-accessories"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_fad49fba3231",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Transformers.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Control Transformers",
+          "goto": "cat_10b05fafaaa8",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Power Transformers",
+          "goto": "cat_a27fa40c11e1",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_10b05fafaaa8",
+      "step_type": "message",
+      "step_prompts": [
+        "Control Transformers is your starting point.",
+        "Electrical → Transformers\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Control Transformers",
+          "url": "https://blackhawksupply.com/collections/electrical-transformers-control-transformers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_a27fa40c11e1",
+      "step_type": "message",
+      "step_prompts": [
+        "Power Transformers is your starting point.",
+        "Electrical → Transformers\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Power Transformers",
+          "url": "https://blackhawksupply.com/collections/electrical-transformers-power-transformers"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_f1d3f522543e",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Resistors & Inductors.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Inductors",
+          "goto": "cat_5c948c1df319",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Resistors",
+          "goto": "cat_0edc941eed1b",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_5c948c1df319",
+      "step_type": "message",
+      "step_prompts": [
+        "Inductors is your starting point.",
+        "Electrical → Resistors & Inductors\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Inductors",
+          "url": "https://blackhawksupply.com/collections/electrical-resistors-inductors-inductors"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_0edc941eed1b",
+      "step_type": "message",
+      "step_prompts": [
+        "Resistors is your starting point.",
+        "Electrical → Resistors & Inductors\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Resistors",
+          "url": "https://blackhawksupply.com/collections/electrical-resistors-inductors-resistors"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_4d2c77d33968",
+      "step_type": "single_select",
+      "step_prompts": [
+        "Let’s narrow down Alarms, Security & Signaling.",
+        "Which category fits your project?"
+      ],
+      "step_options": [
+        {
+          "label": "Access Control",
+          "goto": "cat_5c38d89d6730",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "label": "Signaling Devices",
+          "goto": "cat_9bd428de6021",
+          "description": "",
+          "icon": ""
+        }
+      ],
+      "step_config": {},
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_5c38d89d6730",
+      "step_type": "message",
+      "step_prompts": [
+        "Access Control is your starting point.",
+        "Electrical → Alarms, Security & Signaling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Access Control",
+          "url": "https://blackhawksupply.com/collections/electrical-alarms-security-signaling-access-control"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    },
+    {
+      "id": "cat_9bd428de6021",
+      "step_type": "message",
+      "step_prompts": [
+        "Signaling Devices is your starting point.",
+        "Electrical → Alarms, Security & Signaling\nOpen this collection to compare products and check specifications, availability and pricing."
+      ],
+      "step_options": [],
+      "step_config": {
+        "terminal": true,
+        "cta": {
+          "label": "Browse Signaling Devices",
+          "url": "https://blackhawksupply.com/collections/electrical-alarms-security-signaling-signaling-devices"
+        }
+      },
+      "step_columns": [],
+      "step_description": ""
+    }
+  ]
+}
