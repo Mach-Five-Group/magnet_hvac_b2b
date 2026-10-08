@@ -304,7 +304,6 @@ a {
 
 /* ---------- Magnet mount ---------- */
 html { scroll-behavior: smooth; }
-.concept-banner { padding: .5rem 1rem; text-align: center; font-size: .8rem; background: #f4f0ec; color: #4c3a2d; }
 .product-guide { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(2rem, 5vw, 5rem); align-items: center; scroll-margin-top: 6rem; }
 .eyebrow { display: block; color: #9a3b07; font-weight: 750; font-size: .72rem; letter-spacing: .12em; margin-bottom: 1.2rem; }
 .guide-intro h2 { text-align: left; font-size: clamp(2rem, 3.4vw, 3rem); letter-spacing: -.04em; line-height: 1.08; }
