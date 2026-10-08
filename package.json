@@ -17,5 +17,9 @@
     "url": "git+https://github.com/Mach-Five-Group/magnet_hvac_b2b.git"
   },
   "homepage": "https://mach-five-group.github.io/magnet_hvac_b2b/",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@machfivetechchicago/machvive-chat-syncopation-ai": "^0.3.0",
+    "@machfivetechchicago/machvive-webmcp-ai": "^6.6.1"
+  }
 }

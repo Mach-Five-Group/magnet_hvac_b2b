@@ -9,18 +9,175 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <h1>HVAC B2B</h1>
-      <p>Targeted prospect collateral.</p>
+    <header class="site-header">
+      <a class="logo" href="#">HVAC<span> B2B</span></a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#">Home</a>
+        <a href="#categories">Products</a>
+        <a href="#brands">Brands</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <form class="site-search" role="search">
+        <input type="search" placeholder="Search parts, SKUs, brands…" aria-label="Search" />
+      </form>
     </header>
 
+    <!-- Hero -->
+    <section class="hero" style="background-image: linear-gradient(rgba(10, 25, 47, 0.65), rgba(10, 25, 47, 0.65)), url('./assets/img/hero-bg.jpg');">
+      <div class="hero-inner">
+        <h1>Supplying HVAC Professionals the Right Parts at the Right Price</h1>
+        <p>With 30+ years of experience in the commercial HVAC industry, we know controls.</p>
+        <a class="btn" href="#categories">Shop Parts</a>
+      </div>
+    </section>
+
     <main>
+      <!-- Category tiles -->
+      <section class="section" id="categories">
+        <h2>Your Trusted Source for HVAC, Electrical and Plumbing Supplies</h2>
+        <p class="lede">High-quality HVAC parts and supplies, plumbing solutions, electrical components and control systems for professionals and contractors.</p>
+        <div class="grid grid-4 tiles">
+          <a class="tile" href="#">
+            <img src="./assets/img/collection-controls.jpg" alt="Control system supplies" loading="lazy" />
+            <span class="tile-label">Control System Supplies</span>
+          </a>
+          <a class="tile" href="#">
+            <img src="./assets/img/collection-hvac.jpg" alt="HVAC supplies" loading="lazy" />
+            <span class="tile-label">HVAC Supplies</span>
+          </a>
+          <a class="tile" href="#">
+            <img src="./assets/img/collection-plumbing.jpg" alt="Plumbing supplies" loading="lazy" />
+            <span class="tile-label">Plumbing Supplies</span>
+          </a>
+          <a class="tile" href="#">
+            <img src="./assets/img/collection-electrical.jpg" alt="Electrical supplies" loading="lazy" />
+            <span class="tile-label">Electrical Supplies</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Value props -->
+      <section class="section section-alt">
+        <h2>Why Choose Us?</h2>
+        <ul class="grid grid-5 value-props">
+          <li>
+            <img src="./assets/img/icon1.svg" alt="" width="48" height="48" />
+            <strong>Free Shipping</strong>
+            <span>On orders over $999</span>
+          </li>
+          <li>
+            <img src="./assets/img/icon2.svg" alt="" width="48" height="48" />
+            <strong>Customer Satisfaction</strong>
+            <span>Excellent customer satisfaction</span>
+          </li>
+          <li>
+            <img src="./assets/img/icon3.svg" alt="" width="48" height="48" />
+            <strong>Secure Payment</strong>
+            <span>Secure online payment</span>
+          </li>
+          <li>
+            <img src="./assets/img/icon4.svg" alt="" width="48" height="48" />
+            <strong>Customer Service</strong>
+            <span>5-star customer service</span>
+          </li>
+          <li>
+            <img src="./assets/img/icon5.svg" alt="" width="48" height="48" />
+            <strong>Quantity Discounts</strong>
+            <span>Volume pricing available</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Best sellers -->
+      <section class="section">
+        <h2>Best Sellers</h2>
+        <p class="lede">Explore our most popular HVAC parts, plumbing supplies and electrical components.</p>
+        <div class="grid grid-4 products">
+          <article class="product-card">
+            <img src="./assets/img/prod-belimo-lf24.jpg" alt="Belimo LF24-SR US spring return actuator" loading="lazy" />
+            <h3>LF24-SR US | Damper Actuator | Belimo</h3>
+            <p class="meta">Brand: Belimo · SKU: LF24-SR US</p>
+            <p class="price">$209.99 <span>each</span></p>
+            <button class="btn btn-cart" type="button">Add to Cart</button>
+          </article>
+          <article class="product-card">
+            <img src="./assets/img/prod-belimo-afb24.jpg" alt="Belimo AFB24-SR fail-safe actuator" loading="lazy" />
+            <h3>AFB24-SR | Fail-Safe Actuator | Belimo</h3>
+            <p class="meta">Brand: Belimo · SKU: AFB24-SR</p>
+            <p class="price">$512.40 <span>each</span></p>
+            <button class="btn btn-cart" type="button">Add to Cart</button>
+          </article>
+          <article class="product-card">
+            <img src="./assets/img/prod-belimo-lf120.jpg" alt="Belimo LF120 US actuator" loading="lazy" />
+            <h3>LF120 US | Damper Actuator | Belimo</h3>
+            <p class="meta">Brand: Belimo · SKU: LF120 US</p>
+            <p class="price">$198.75 <span>each</span></p>
+            <button class="btn btn-cart" type="button">Add to Cart</button>
+          </article>
+          <article class="product-card">
+            <img src="./assets/img/prod-bacnet-router.jpg" alt="BACnet router" loading="lazy" />
+            <h3>BASrouter | BACnet Router | Contemporary Controls</h3>
+            <p class="meta">Brand: Contemporary Controls · SKU: BASRT-B</p>
+            <p class="price">$295.00 <span>each</span></p>
+            <button class="btn btn-cart" type="button">Add to Cart</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- Brands -->
+      <section class="section section-alt" id="brands">
+        <h2>Shop By Brand</h2>
+        <p class="lede">We carry parts and systems from the industry's most trusted brands.</p>
+        <ul class="grid grid-6 brands">
+          <li><img src="./assets/img/brand-aci.png" alt="ACI" loading="lazy" /></li>
+          <li><img src="./assets/img/brand-belimo.png" alt="Belimo" loading="lazy" /></li>
+          <li><img src="./assets/img/brand-braeburn.png" alt="Braeburn" loading="lazy" /></li>
+          <li><img src="./assets/img/brand-controls.png" alt="Contemporary Controls" loading="lazy" /></li>
+          <li><img src="./assets/img/brand-jci.png" alt="Johnson Controls" loading="lazy" /></li>
+          <li><img src="./assets/img/brand-sce.png" alt="Schneider Electric" loading="lazy" /></li>
+        </ul>
+      </section>
+
       <!-- The dynamic magnet mounts here. -->
-      <div id="magnet-root"></div>
+      <section class="section" id="magnet">
+        <div id="magnet-root"></div>
+      </section>
     </main>
 
-    <footer>
-      <p>&copy; Mach Five Group</p>
+    <footer class="site-footer" id="contact">
+      <div class="footer-grid">
+        <section>
+          <h2>Partner With Us</h2>
+          <p>Join our extensive network of partners and discover how we can help improve your business operations.</p>
+          <a class="btn btn-ghost" href="#">Apply →</a>
+        </section>
+        <section>
+          <h2>Contact Us</h2>
+          <p>Our technical support team is ready to assist you with finding the right parts for your project.</p>
+        </section>
+        <section>
+          <h2>Sign Up To Newsletter</h2>
+          <p>Find out about special time-sensitive discounts.</p>
+          <form class="newsletter">
+            <input type="email" placeholder="Email address" aria-label="Email address" />
+            <button class="btn" type="submit">Sign Up</button>
+          </form>
+        </section>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+      <div class="footer-badges">
+        <img src="./assets/img/footer-dla.png" alt="Defense Logistics Agency" loading="lazy" />
+        <img src="./assets/img/footer-sba.png" alt="Small Business Administration" loading="lazy" />
+        <img src="./assets/img/footer-duns.png" alt="D-U-N-S Registered" loading="lazy" />
+      </div>
+      <p class="copyright">© 2026 Mach Five Group. Demo layout inspired by industry B2B storefronts.</p>
     </footer>
 
     <script type="module" src="./main.js"></script>
