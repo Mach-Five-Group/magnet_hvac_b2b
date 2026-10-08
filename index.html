@@ -3,23 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Magnet — HVAC B2B</title>
+    <title>Blackhawk Supply | Product Guide Concept</title>
     <!-- Inline so the browser's automatic /favicon.ico probe never 404s. -->
     <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'&gt;&lt;text y='14' font-size='14'&gt;🧲&lt;/text&gt;" />
     <link rel="stylesheet" href="./style.css" />
     <script type="application/ld+json" src="./assets/categories.json"></script>
   </head>
   <body>
+    <div class="concept-banner">A Blackhawk Supply concept by Mach Five Magnet · Explore the interactive product guide</div>
     <header class="site-header">
-      <a class="logo" href="#">HVAC<span> B2B</span></a>
+      <a class="logo" href="#">BLACKHAWK<span> SUPPLY</span></a>
       <nav class="main-nav" aria-label="Primary">
-        <a href="#">Home</a>
+        <a href="#magnet">Product guide</a>
         <a href="#categories">Products</a>
         <a href="#brands">Brands</a>
         <a href="#contact">Contact</a>
       </nav>
-      <form class="site-search" role="search">
-        <input type="search" placeholder="Search parts, SKUs, brands…" aria-label="Search" />
+      <form class="site-search" role="search" action="https://blackhawksupply.com/search" method="get">
+        <input type="search" name="q" placeholder="Search parts, SKUs, brands…" aria-label="Search" />
       </form>
     </header>
 
@@ -28,11 +29,26 @@
       <div class="hero-inner">
         <h1>Supplying HVAC Professionals the Right Parts at the Right Price</h1>
         <p>With 30+ years of experience in the commercial HVAC industry, we know controls.</p>
-        <a class="btn" href="#categories">Shop Parts</a>
+        <a class="btn" href="#magnet">Find my product →</a>
       </div>
     </section>
 
     <main>
+      <section class="section product-guide" id="magnet" aria-labelledby="guide-title">
+        <div class="guide-intro">
+          <span class="eyebrow">THE RIGHT CATEGORY. FEWER CLICKS.</span>
+          <h2 id="guide-title">A little guidance.<br>A better starting point.</h2>
+          <p>From building controls to plumbing and power. Tell us what you’re working on and find the collection that fits.</p>
+          <div class="guide-path"><span>Choose your project</span><span>Narrow the category</span><span>Explore the products ↗</span></div>
+          <p class="guide-note">Already know your part number? <a href="https://blackhawksupply.com/search">Search Blackhawk Supply →</a></p>
+        </div>
+        <div class="guide-frame">
+          <div id="magnet-root" data-m5m-inline></div>
+          <p id="guide-loading" role="status">Loading your product guide…</p>
+          <p id="guide-fallback" hidden>The guide is taking a moment. <a href="https://blackhawksupply.com/">Browse Blackhawk Supply →</a></p>
+          <noscript><p><a href="https://blackhawksupply.com/">Browse Blackhawk Supply’s products →</a></p></noscript>
+        </div>
+      </section>
       <!-- Category tiles -->
       <section class="section" id="categories">
         <h2>Your Trusted Source for HVAC, Electrical and Plumbing Supplies</h2>
@@ -139,10 +155,7 @@
         </ul>
       </section>
 
-      <!-- The dynamic magnet mounts here. -->
-      <section class="section" id="magnet">
-        <div id="magnet-root"></div>
-      </section>
+
     </main>
 
     <footer class="site-footer" id="contact">

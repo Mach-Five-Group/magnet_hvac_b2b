@@ -1,0 +1,1417 @@
+{
+  "source": "public/assets/categories.json",
+  "sha256": "e960e6ab1bee87b9ded1c87efed3df73b232268a2afd53c60815e824228775af",
+  "departments": 3,
+  "leafCategories": 141,
+  "steps": 188,
+  "leaves": [
+    {
+      "name": "Humidifier Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-humidifier-accessories",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Humidifier Accessories"
+      ],
+      "id": "cat_7d43433885d8"
+    },
+    {
+      "name": "Dehumidifiers",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-dehumidifiers",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Dehumidifiers"
+      ],
+      "id": "cat_236588d0c06a"
+    },
+    {
+      "name": "Venting Supplies & Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-venting-supplies-accessories",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Venting Supplies & Accessories"
+      ],
+      "id": "cat_09a97d3802c8"
+    },
+    {
+      "name": "Air Curtain Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-curtain-accessories",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Air Curtain Accessories"
+      ],
+      "id": "cat_9fa3c32c1616"
+    },
+    {
+      "name": "Grilles, Registers & Diffusers",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-grilles-registers-diffusers",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Grilles, Registers & Diffusers"
+      ],
+      "id": "cat_9d64c5476a4c"
+    },
+    {
+      "name": "Air Cleaners & Purifiers",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-cleaners-purifiers",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Air Cleaners & Purifiers"
+      ],
+      "id": "cat_f0925f682d7e"
+    },
+    {
+      "name": "Dampers & Louvers",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-dampers-louvers",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Dampers & Louvers"
+      ],
+      "id": "cat_33108245d8b4"
+    },
+    {
+      "name": "Ventilation Fans",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-ventilation-fans",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Ventilation Fans"
+      ],
+      "id": "cat_3e53e514a28f"
+    },
+    {
+      "name": "Air Filters",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-filters",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Air Filters"
+      ],
+      "id": "cat_68e6b75040fe"
+    },
+    {
+      "name": "Ducts & Fittings",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-ducts-fittings",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Ducts & Fittings"
+      ],
+      "id": "cat_78dd6bced664"
+    },
+    {
+      "name": "Exhaust Fans",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-exhaust-fans",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Exhaust Fans"
+      ],
+      "id": "cat_eba307bd5535"
+    },
+    {
+      "name": "Dehumidifier Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-dehumidifier-accessories",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Dehumidifier Accessories"
+      ],
+      "id": "cat_5076f394447d"
+    },
+    {
+      "name": "Air Filter Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-filter-accessories",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Air Filter Accessories"
+      ],
+      "id": "cat_830bc4f186f3"
+    },
+    {
+      "name": "Humidifiers",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-humidifiers",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Humidifiers"
+      ],
+      "id": "cat_8279bbec53e5"
+    },
+    {
+      "name": "Air Curtains",
+      "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-curtains",
+      "path": [
+        "HVAC & Controls",
+        "Air Quality & Ventilation",
+        "Air Curtains"
+      ],
+      "id": "cat_7a3f4dfa0d96"
+    },
+    {
+      "name": "Heat Pump Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-pump-accessories",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Heat Pump Accessories"
+      ],
+      "id": "cat_8a5a9331b554"
+    },
+    {
+      "name": "Heater Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heater-accessories",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Heater Accessories"
+      ],
+      "id": "cat_b2d83965fbdf"
+    },
+    {
+      "name": "Air Conditioning Systems",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-air-conditioning-systems",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Air Conditioning Systems"
+      ],
+      "id": "cat_9ed42498c106"
+    },
+    {
+      "name": "Heaters",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heaters",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Heaters"
+      ],
+      "id": "cat_c93b80176c24"
+    },
+    {
+      "name": "Refrigeration",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-refrigeration",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Refrigeration"
+      ],
+      "id": "cat_85c78da0ea8e"
+    },
+    {
+      "name": "HVAC Coils",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-hvac-coils",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "HVAC Coils"
+      ],
+      "id": "cat_5f4f7f1da72d"
+    },
+    {
+      "name": "Furnace Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-furnace-accessories",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Furnace Accessories"
+      ],
+      "id": "cat_74f3cb3bfb3b"
+    },
+    {
+      "name": "Heat Exchanger Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-exchanger-accessories",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Heat Exchanger Accessories"
+      ],
+      "id": "cat_417642d9756a"
+    },
+    {
+      "name": "Heat Pumps",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-pumps",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Heat Pumps"
+      ],
+      "id": "cat_437981cbff4a"
+    },
+    {
+      "name": "Steam Systems",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-steam-systems",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Steam Systems"
+      ],
+      "id": "cat_b110766c459d"
+    },
+    {
+      "name": "Furnaces",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-furnaces",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Furnaces"
+      ],
+      "id": "cat_fc36bacff6c2"
+    },
+    {
+      "name": "Heat Exchangers",
+      "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-exchangers",
+      "path": [
+        "HVAC & Controls",
+        "Heating & Cooling",
+        "Heat Exchangers"
+      ],
+      "id": "cat_8d9fb2a21210"
+    },
+    {
+      "name": "Thermostats",
+      "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-thermostats",
+      "path": [
+        "HVAC & Controls",
+        "HVAC Controls",
+        "Thermostats"
+      ],
+      "id": "cat_873039b21944"
+    },
+    {
+      "name": "HVAC Switches",
+      "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-switches",
+      "path": [
+        "HVAC & Controls",
+        "HVAC Controls",
+        "HVAC Switches"
+      ],
+      "id": "cat_c3ecb3cf48d0"
+    },
+    {
+      "name": "HVAC Valves",
+      "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-valves",
+      "path": [
+        "HVAC & Controls",
+        "HVAC Controls",
+        "HVAC Valves"
+      ],
+      "id": "cat_c4353cbc7f93"
+    },
+    {
+      "name": "Control Boards",
+      "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-control-boards",
+      "path": [
+        "HVAC & Controls",
+        "HVAC Controls",
+        "Control Boards"
+      ],
+      "id": "cat_f82906149b42"
+    },
+    {
+      "name": "HVAC Controllers",
+      "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-controllers",
+      "path": [
+        "HVAC & Controls",
+        "HVAC Controls",
+        "HVAC Controllers"
+      ],
+      "id": "cat_c84836c251c9"
+    },
+    {
+      "name": "HVAC Sensors",
+      "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-sensors",
+      "path": [
+        "HVAC & Controls",
+        "HVAC Controls",
+        "HVAC Sensors"
+      ],
+      "id": "cat_2b1498f816fb"
+    },
+    {
+      "name": "HVAC Actuators",
+      "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-actuators",
+      "path": [
+        "HVAC & Controls",
+        "HVAC Controls",
+        "HVAC Actuators"
+      ],
+      "id": "cat_d028c82c6f44"
+    },
+    {
+      "name": "HVAC Actuator Parts & Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-actuator-parts-accessories",
+      "path": [
+        "HVAC & Controls",
+        "HVAC Controls",
+        "HVAC Actuator Parts & Accessories"
+      ],
+      "id": "cat_4b8bad770c47"
+    },
+    {
+      "name": "Aquastats",
+      "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-aquastats",
+      "path": [
+        "HVAC & Controls",
+        "HVAC Controls",
+        "Aquastats"
+      ],
+      "id": "cat_3dd6aea131f1"
+    },
+    {
+      "name": "Boiler Accessories",
+      "url": "https://blackhawksupply.com/collections/hvac-hydronics-boiler-accessories",
+      "path": [
+        "HVAC & Controls",
+        "Hydronics",
+        "Boiler Accessories"
+      ],
+      "id": "cat_1b038b60e1e0"
+    },
+    {
+      "name": "Radiant Heating Systems",
+      "url": "https://blackhawksupply.com/collections/hvac-hydronics-radiant-heating-systems",
+      "path": [
+        "HVAC & Controls",
+        "Hydronics",
+        "Radiant Heating Systems"
+      ],
+      "id": "cat_3c28521e0637"
+    },
+    {
+      "name": "Boilers",
+      "url": "https://blackhawksupply.com/collections/hvac-hydronics-boilers",
+      "path": [
+        "HVAC & Controls",
+        "Hydronics",
+        "Boilers"
+      ],
+      "id": "cat_fab786d69a04"
+    },
+    {
+      "name": "Fan Convectors",
+      "url": "https://blackhawksupply.com/collections/hvac-hydronics-fan-convectors",
+      "path": [
+        "HVAC & Controls",
+        "Hydronics",
+        "Fan Convectors"
+      ],
+      "id": "cat_a1a52a190575"
+    },
+    {
+      "name": "Hydronic Manifolds",
+      "url": "https://blackhawksupply.com/collections/hvac-hydronics-hydronic-manifolds",
+      "path": [
+        "HVAC & Controls",
+        "Hydronics",
+        "Hydronic Manifolds"
+      ],
+      "id": "cat_b5f82293eee6"
+    },
+    {
+      "name": "Pumps & Circulators",
+      "url": "https://blackhawksupply.com/collections/hvac-hydronics-pumps-circulators",
+      "path": [
+        "HVAC & Controls",
+        "Hydronics",
+        "Pumps & Circulators"
+      ],
+      "id": "cat_6dd34b29f16f"
+    },
+    {
+      "name": "Air & Dirt Separation",
+      "url": "https://blackhawksupply.com/collections/hvac-hydronics-air-dirt-separation",
+      "path": [
+        "HVAC & Controls",
+        "Hydronics",
+        "Air & Dirt Separation"
+      ],
+      "id": "cat_a2a98871cc4f"
+    },
+    {
+      "name": "Expansion Tanks",
+      "url": "https://blackhawksupply.com/collections/hvac-hydronics-expansion-tanks",
+      "path": [
+        "HVAC & Controls",
+        "Hydronics",
+        "Expansion Tanks"
+      ],
+      "id": "cat_b2b8c4d7209b"
+    },
+    {
+      "name": "Flow & Level Measurement",
+      "url": "https://blackhawksupply.com/collections/hvac-instrumentation-measurement-flow-level-measurement",
+      "path": [
+        "HVAC & Controls",
+        "Instrumentation & Measurement",
+        "Flow & Level Measurement"
+      ],
+      "id": "cat_9e0f89fbdd8e"
+    },
+    {
+      "name": "Pressure & Temperature Measurement",
+      "url": "https://blackhawksupply.com/collections/hvac-instrumentation-measurement-pressure-temperature-measurement",
+      "path": [
+        "HVAC & Controls",
+        "Instrumentation & Measurement",
+        "Pressure & Temperature Measurement"
+      ],
+      "id": "cat_8c62f3fb13e6"
+    },
+    {
+      "name": "Pipe Bushings",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-bushings",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Bushings"
+      ],
+      "id": "cat_0fb62391be9f"
+    },
+    {
+      "name": "Pipe Tees",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-tees",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Tees"
+      ],
+      "id": "cat_3ecf1700776c"
+    },
+    {
+      "name": "Pneumatic Fittings",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pneumatic-fittings",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pneumatic Fittings"
+      ],
+      "id": "cat_9c2c3a492f54"
+    },
+    {
+      "name": "Pipe Adapters",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-adapters",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Adapters"
+      ],
+      "id": "cat_b3be9c54ca77"
+    },
+    {
+      "name": "Hydraulic Fittings",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-hydraulic-fittings",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Hydraulic Fittings"
+      ],
+      "id": "cat_a2fa0c74301b"
+    },
+    {
+      "name": "Bulkhead Fittings",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-bulkhead-fittings",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Bulkhead Fittings"
+      ],
+      "id": "cat_228b819820ae"
+    },
+    {
+      "name": "Pipes & Tubes",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipes-tubes",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipes & Tubes"
+      ],
+      "id": "cat_fe69a8540934"
+    },
+    {
+      "name": "Pipe Unions",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-unions",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Unions"
+      ],
+      "id": "cat_2c89c8008047"
+    },
+    {
+      "name": "Pipe Nipples",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-nipples",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Nipples"
+      ],
+      "id": "cat_f70028956783"
+    },
+    {
+      "name": "Pipe Elbows",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-elbows",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Elbows"
+      ],
+      "id": "cat_285d303b4db2"
+    },
+    {
+      "name": "Pipe Saddles & Saddle Tees",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-saddles-saddle-tees",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Saddles & Saddle Tees"
+      ],
+      "id": "cat_ab6af4dc43d7"
+    },
+    {
+      "name": "Pipe Flanges",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-flanges",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Flanges"
+      ],
+      "id": "cat_92e7f40588f5"
+    },
+    {
+      "name": "Pipe Couplings",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-couplings",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Couplings"
+      ],
+      "id": "cat_837b5854e9b3"
+    },
+    {
+      "name": "Pipe Reducers",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-reducers",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Reducers"
+      ],
+      "id": "cat_bafc50112014"
+    },
+    {
+      "name": "Pipe Caps & Plugs",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-caps-plugs",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Caps & Plugs"
+      ],
+      "id": "cat_c4ad753e4d54"
+    },
+    {
+      "name": "Pipe Cross Fittings",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-cross-fittings",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Cross Fittings"
+      ],
+      "id": "cat_f1999592c7cd"
+    },
+    {
+      "name": "Pipe Wyes",
+      "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-wyes",
+      "path": [
+        "Plumbing",
+        "Pipes & Fittings",
+        "Pipe Wyes"
+      ],
+      "id": "cat_4e514527ebfe"
+    },
+    {
+      "name": "Filter Cartridges",
+      "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-filter-cartridges",
+      "path": [
+        "Plumbing",
+        "Water Filtration",
+        "Filter Cartridges"
+      ],
+      "id": "cat_11c8058de284"
+    },
+    {
+      "name": "Strainer & Filter Accessories",
+      "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-strainer-filter-accessories",
+      "path": [
+        "Plumbing",
+        "Water Filtration",
+        "Strainer & Filter Accessories"
+      ],
+      "id": "cat_e540096be0eb"
+    },
+    {
+      "name": "Strainers",
+      "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-strainers",
+      "path": [
+        "Plumbing",
+        "Water Filtration",
+        "Strainers"
+      ],
+      "id": "cat_54010fa6b8ea"
+    },
+    {
+      "name": "Filter Bags",
+      "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-filter-bags",
+      "path": [
+        "Plumbing",
+        "Water Filtration",
+        "Filter Bags"
+      ],
+      "id": "cat_91017e0e58df"
+    },
+    {
+      "name": "Centrifugal Pumps",
+      "url": "https://blackhawksupply.com/collections/plumbing-pumps-centrifugal-pumps",
+      "path": [
+        "Plumbing",
+        "Pumps",
+        "Centrifugal Pumps"
+      ],
+      "id": "cat_fc1b2d3fc8a1"
+    },
+    {
+      "name": "Standard Pump Parts & Accessories",
+      "url": "https://blackhawksupply.com/collections/plumbing-pumps-standard-pump-parts-accessories",
+      "path": [
+        "Plumbing",
+        "Pumps",
+        "Standard Pump Parts & Accessories"
+      ],
+      "id": "cat_a8b4e5141d89"
+    },
+    {
+      "name": "Pump Repair Kits",
+      "url": "https://blackhawksupply.com/collections/plumbing-pumps-pump-repair-kits",
+      "path": [
+        "Plumbing",
+        "Pumps",
+        "Pump Repair Kits"
+      ],
+      "id": "cat_208d188503e3"
+    },
+    {
+      "name": "Diaphragm Pumps",
+      "url": "https://blackhawksupply.com/collections/plumbing-pumps-diaphragm-pumps",
+      "path": [
+        "Plumbing",
+        "Pumps",
+        "Diaphragm Pumps"
+      ],
+      "id": "cat_a8c5ad684676"
+    },
+    {
+      "name": "Pipe Hangers & Supports",
+      "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-pipe-hangers-supports",
+      "path": [
+        "Plumbing",
+        "Plumbing Repair & Installation",
+        "Pipe Hangers & Supports"
+      ],
+      "id": "cat_982b126b188a"
+    },
+    {
+      "name": "Gaskets & Seals",
+      "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-gaskets-seals",
+      "path": [
+        "Plumbing",
+        "Plumbing Repair & Installation",
+        "Gaskets & Seals"
+      ],
+      "id": "cat_8fa4792adab1"
+    },
+    {
+      "name": "Thread Sealants & Tapes",
+      "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-thread-sealants-tapes",
+      "path": [
+        "Plumbing",
+        "Plumbing Repair & Installation",
+        "Thread Sealants & Tapes"
+      ],
+      "id": "cat_8cf57a511edc"
+    },
+    {
+      "name": "Solvent Cements",
+      "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-solvent-cements",
+      "path": [
+        "Plumbing",
+        "Plumbing Repair & Installation",
+        "Solvent Cements"
+      ],
+      "id": "cat_30459f0c2d99"
+    },
+    {
+      "name": "Appliance Supply Line Connectors",
+      "url": "https://blackhawksupply.com/collections/plumbing-plumbing-fixtures-drains-appliance-supply-line-connectors",
+      "path": [
+        "Plumbing",
+        "Plumbing Fixtures & Drains",
+        "Appliance Supply Line Connectors"
+      ],
+      "id": "cat_3d493bd3a53e"
+    },
+    {
+      "name": "Faucets",
+      "url": "https://blackhawksupply.com/collections/plumbing-plumbing-fixtures-drains-faucets",
+      "path": [
+        "Plumbing",
+        "Plumbing Fixtures & Drains",
+        "Faucets"
+      ],
+      "id": "cat_c765fa5b3528"
+    },
+    {
+      "name": "Sink Drains",
+      "url": "https://blackhawksupply.com/collections/plumbing-plumbing-fixtures-drains-sink-drains",
+      "path": [
+        "Plumbing",
+        "Plumbing Fixtures & Drains",
+        "Sink Drains"
+      ],
+      "id": "cat_ba3cc3d1f509"
+    },
+    {
+      "name": "Hoses & Hose Assemblies",
+      "url": "https://blackhawksupply.com/collections/plumbing-hoses-fittings-hoses-hose-assemblies",
+      "path": [
+        "Plumbing",
+        "Hoses & Fittings",
+        "Hoses & Hose Assemblies"
+      ],
+      "id": "cat_04cf6975058f"
+    },
+    {
+      "name": "Hose Fittings",
+      "url": "https://blackhawksupply.com/collections/plumbing-hoses-fittings-hose-fittings",
+      "path": [
+        "Plumbing",
+        "Hoses & Fittings",
+        "Hose Fittings"
+      ],
+      "id": "cat_f628300a87bc"
+    },
+    {
+      "name": "Water Heaters",
+      "url": "https://blackhawksupply.com/collections/plumbing-water-heaters",
+      "path": [
+        "Plumbing",
+        "Water Heaters"
+      ],
+      "id": "cat_cab6d7f267c4"
+    },
+    {
+      "name": "Water Heater Parts & Accessories",
+      "url": "https://blackhawksupply.com/collections/plumbing-water-heater-parts-accessories",
+      "path": [
+        "Plumbing",
+        "Water Heater Parts & Accessories"
+      ],
+      "id": "cat_31c36d05f946"
+    },
+    {
+      "name": "Rocker Switches",
+      "url": "https://blackhawksupply.com/collections/electrical-switches-rocker-switches",
+      "path": [
+        "Electrical",
+        "Switches",
+        "Rocker Switches"
+      ],
+      "id": "cat_6cf8122d62f8"
+    },
+    {
+      "name": "Door & Interlock Switches",
+      "url": "https://blackhawksupply.com/collections/electrical-switches-door-interlock-switches",
+      "path": [
+        "Electrical",
+        "Switches",
+        "Door & Interlock Switches"
+      ],
+      "id": "cat_0866e8195f1c"
+    },
+    {
+      "name": "Pushbutton Switches",
+      "url": "https://blackhawksupply.com/collections/electrical-switches-pushbutton-switches",
+      "path": [
+        "Electrical",
+        "Switches",
+        "Pushbutton Switches"
+      ],
+      "id": "cat_4ca720177e45"
+    },
+    {
+      "name": "Control Stations",
+      "url": "https://blackhawksupply.com/collections/electrical-switches-control-stations",
+      "path": [
+        "Electrical",
+        "Switches",
+        "Control Stations"
+      ],
+      "id": "cat_b95f8f729f81"
+    },
+    {
+      "name": "Switch Accessories & Components",
+      "url": "https://blackhawksupply.com/collections/electrical-switches-switch-accessories-components",
+      "path": [
+        "Electrical",
+        "Switches",
+        "Switch Accessories & Components"
+      ],
+      "id": "cat_4440a9a482ff"
+    },
+    {
+      "name": "Key Switches & Selector Switches",
+      "url": "https://blackhawksupply.com/collections/electrical-switches-key-switches-selector-switches",
+      "path": [
+        "Electrical",
+        "Switches",
+        "Key Switches & Selector Switches"
+      ],
+      "id": "cat_08cfa3a309f2"
+    },
+    {
+      "name": "Foot Switches",
+      "url": "https://blackhawksupply.com/collections/electrical-switches-foot-switches",
+      "path": [
+        "Electrical",
+        "Switches",
+        "Foot Switches"
+      ],
+      "id": "cat_4278f8ee25db"
+    },
+    {
+      "name": "Toggle & Slide Switches",
+      "url": "https://blackhawksupply.com/collections/electrical-switches-toggle-slide-switches",
+      "path": [
+        "Electrical",
+        "Switches",
+        "Toggle & Slide Switches"
+      ],
+      "id": "cat_0da0c92a3ca6"
+    },
+    {
+      "name": "Rotary Switches",
+      "url": "https://blackhawksupply.com/collections/electrical-switches-rotary-switches",
+      "path": [
+        "Electrical",
+        "Switches",
+        "Rotary Switches"
+      ],
+      "id": "cat_6d3a8b8a67d9"
+    },
+    {
+      "name": "Limit & Position Switches",
+      "url": "https://blackhawksupply.com/collections/electrical-switches-limit-position-switches",
+      "path": [
+        "Electrical",
+        "Switches",
+        "Limit & Position Switches"
+      ],
+      "id": "cat_6120ef71a935"
+    },
+    {
+      "name": "Current Transformers",
+      "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-current-transformers",
+      "path": [
+        "Electrical",
+        "Power Monitoring",
+        "Current Transformers"
+      ],
+      "id": "cat_4e31a2761f7e"
+    },
+    {
+      "name": "Energy & Power Meters",
+      "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-energy-power-meters",
+      "path": [
+        "Electrical",
+        "Power Monitoring",
+        "Energy & Power Meters"
+      ],
+      "id": "cat_5e4d858d66f0"
+    },
+    {
+      "name": "Panel Meters",
+      "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-panel-meters",
+      "path": [
+        "Electrical",
+        "Power Monitoring",
+        "Panel Meters"
+      ],
+      "id": "cat_c75c3dbe289f"
+    },
+    {
+      "name": "Electrical Testers",
+      "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-electrical-testers",
+      "path": [
+        "Electrical",
+        "Power Monitoring",
+        "Electrical Testers"
+      ],
+      "id": "cat_2a11027acc3e"
+    },
+    {
+      "name": "Data Loggers",
+      "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-data-loggers",
+      "path": [
+        "Electrical",
+        "Power Monitoring",
+        "Data Loggers"
+      ],
+      "id": "cat_9ab180ad930d"
+    },
+    {
+      "name": "Multimeters",
+      "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-multimeters",
+      "path": [
+        "Electrical",
+        "Power Monitoring",
+        "Multimeters"
+      ],
+      "id": "cat_eb66a10f09dd"
+    },
+    {
+      "name": "Clamp Meters",
+      "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-clamp-meters",
+      "path": [
+        "Electrical",
+        "Power Monitoring",
+        "Clamp Meters"
+      ],
+      "id": "cat_7012f6a29ad1"
+    },
+    {
+      "name": "Current Transducers",
+      "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-current-transducers",
+      "path": [
+        "Electrical",
+        "Power Monitoring",
+        "Current Transducers"
+      ],
+      "id": "cat_f5dbc00c66cd"
+    },
+    {
+      "name": "Data & Communication Cables",
+      "url": "https://blackhawksupply.com/collections/electrical-wire-cable-data-communication-cables",
+      "path": [
+        "Electrical",
+        "Wire & Cable",
+        "Data & Communication Cables"
+      ],
+      "id": "cat_8a60a9ce244f"
+    },
+    {
+      "name": "Cable Management",
+      "url": "https://blackhawksupply.com/collections/electrical-wire-cable-cable-management",
+      "path": [
+        "Electrical",
+        "Wire & Cable",
+        "Cable Management"
+      ],
+      "id": "cat_dc575126964d"
+    },
+    {
+      "name": "Instrumentation Cables",
+      "url": "https://blackhawksupply.com/collections/electrical-wire-cable-instrumentation-cables",
+      "path": [
+        "Electrical",
+        "Wire & Cable",
+        "Instrumentation Cables"
+      ],
+      "id": "cat_390f52fac69e"
+    },
+    {
+      "name": "Power Cables",
+      "url": "https://blackhawksupply.com/collections/electrical-wire-cable-power-cables",
+      "path": [
+        "Electrical",
+        "Wire & Cable",
+        "Power Cables"
+      ],
+      "id": "cat_cc50025f1a7b"
+    },
+    {
+      "name": "Cable Assemblies",
+      "url": "https://blackhawksupply.com/collections/electrical-wire-cable-cable-assemblies",
+      "path": [
+        "Electrical",
+        "Wire & Cable",
+        "Cable Assemblies"
+      ],
+      "id": "cat_522f9cb06ce4"
+    },
+    {
+      "name": "Control Cables",
+      "url": "https://blackhawksupply.com/collections/electrical-wire-cable-control-cables",
+      "path": [
+        "Electrical",
+        "Wire & Cable",
+        "Control Cables"
+      ],
+      "id": "cat_49187abf0a46"
+    },
+    {
+      "name": "UPS",
+      "url": "https://blackhawksupply.com/collections/electrical-power-supplies-ups",
+      "path": [
+        "Electrical",
+        "Power Supplies",
+        "UPS"
+      ],
+      "id": "cat_149808386003"
+    },
+    {
+      "name": "Power Supply Accessories",
+      "url": "https://blackhawksupply.com/collections/electrical-power-supplies-power-supply-accessories",
+      "path": [
+        "Electrical",
+        "Power Supplies",
+        "Power Supply Accessories"
+      ],
+      "id": "cat_417b122e4f74"
+    },
+    {
+      "name": "AC Power Supplies",
+      "url": "https://blackhawksupply.com/collections/electrical-power-supplies-ac-power-supplies",
+      "path": [
+        "Electrical",
+        "Power Supplies",
+        "AC Power Supplies"
+      ],
+      "id": "cat_8be01e5656a9"
+    },
+    {
+      "name": "DC Power Supplies",
+      "url": "https://blackhawksupply.com/collections/electrical-power-supplies-dc-power-supplies",
+      "path": [
+        "Electrical",
+        "Power Supplies",
+        "DC Power Supplies"
+      ],
+      "id": "cat_55889b93516c"
+    },
+    {
+      "name": "Panelboards & Load Centers",
+      "url": "https://blackhawksupply.com/collections/electrical-power-distribution-panelboards-load-centers",
+      "path": [
+        "Electrical",
+        "Power Distribution",
+        "Panelboards & Load Centers"
+      ],
+      "id": "cat_0206ae75d56e"
+    },
+    {
+      "name": "Power Protection",
+      "url": "https://blackhawksupply.com/collections/electrical-power-distribution-power-protection",
+      "path": [
+        "Electrical",
+        "Power Distribution",
+        "Power Protection"
+      ],
+      "id": "cat_e9b28dec1af1"
+    },
+    {
+      "name": "Circuit Protection Accessories",
+      "url": "https://blackhawksupply.com/collections/electrical-power-distribution-circuit-protection-accessories",
+      "path": [
+        "Electrical",
+        "Power Distribution",
+        "Circuit Protection Accessories"
+      ],
+      "id": "cat_caffac42c612"
+    },
+    {
+      "name": "Power Distribution Units",
+      "url": "https://blackhawksupply.com/collections/electrical-power-distribution-power-distribution-units",
+      "path": [
+        "Electrical",
+        "Power Distribution",
+        "Power Distribution Units"
+      ],
+      "id": "cat_192c82a9222f"
+    },
+    {
+      "name": "Network Devices",
+      "url": "https://blackhawksupply.com/collections/electrical-network-wireless-network-devices",
+      "path": [
+        "Electrical",
+        "Network & Wireless",
+        "Network Devices"
+      ],
+      "id": "cat_a51ff9bd2fd0"
+    },
+    {
+      "name": "Wireless Communication Devices",
+      "url": "https://blackhawksupply.com/collections/electrical-network-wireless-wireless-communication-devices",
+      "path": [
+        "Electrical",
+        "Network & Wireless",
+        "Wireless Communication Devices"
+      ],
+      "id": "cat_1a7c7350dc06"
+    },
+    {
+      "name": "I/O Modules",
+      "url": "https://blackhawksupply.com/collections/electrical-network-wireless-i-o-modules",
+      "path": [
+        "Electrical",
+        "Network & Wireless",
+        "I/O Modules"
+      ],
+      "id": "cat_9e4909ca1a2f"
+    },
+    {
+      "name": "Media Converters",
+      "url": "https://blackhawksupply.com/collections/electrical-network-wireless-media-converters",
+      "path": [
+        "Electrical",
+        "Network & Wireless",
+        "Media Converters"
+      ],
+      "id": "cat_bf1154c0e8d2"
+    },
+    {
+      "name": "Motors",
+      "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-motors",
+      "path": [
+        "Electrical",
+        "Motors & Motor Controls",
+        "Motors"
+      ],
+      "id": "cat_0b5d363704b2"
+    },
+    {
+      "name": "Motor Capacitors",
+      "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-motor-capacitors",
+      "path": [
+        "Electrical",
+        "Motors & Motor Controls",
+        "Motor Capacitors"
+      ],
+      "id": "cat_48142d06c2a6"
+    },
+    {
+      "name": "Motor Starters",
+      "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-motor-starters",
+      "path": [
+        "Electrical",
+        "Motors & Motor Controls",
+        "Motor Starters"
+      ],
+      "id": "cat_63ce8eaf01ed"
+    },
+    {
+      "name": "Variable Frequency Drives",
+      "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-variable-frequency-drives",
+      "path": [
+        "Electrical",
+        "Motors & Motor Controls",
+        "Variable Frequency Drives"
+      ],
+      "id": "cat_cd01b8067af3"
+    },
+    {
+      "name": "Junction Boxes",
+      "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-junction-boxes",
+      "path": [
+        "Electrical",
+        "Enclosures & Cabinets",
+        "Junction Boxes"
+      ],
+      "id": "cat_3d621617a991"
+    },
+    {
+      "name": "Racks & Cabinets",
+      "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-racks-cabinets",
+      "path": [
+        "Electrical",
+        "Enclosures & Cabinets",
+        "Racks & Cabinets"
+      ],
+      "id": "cat_8bac0df684c3"
+    },
+    {
+      "name": "Electrical Enclosures",
+      "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-electrical-enclosures",
+      "path": [
+        "Electrical",
+        "Enclosures & Cabinets",
+        "Electrical Enclosures"
+      ],
+      "id": "cat_accad070e69e"
+    },
+    {
+      "name": "Electrical Enclosure Accessories",
+      "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-electrical-enclosure-accessories",
+      "path": [
+        "Electrical",
+        "Enclosures & Cabinets",
+        "Electrical Enclosure Accessories"
+      ],
+      "id": "cat_466d274c6c74"
+    },
+    {
+      "name": "Relays",
+      "url": "https://blackhawksupply.com/collections/electrical-relays-contactors-relays",
+      "path": [
+        "Electrical",
+        "Relays & Contactors",
+        "Relays"
+      ],
+      "id": "cat_e06a3e1be428"
+    },
+    {
+      "name": "Contactors",
+      "url": "https://blackhawksupply.com/collections/electrical-relays-contactors-contactors",
+      "path": [
+        "Electrical",
+        "Relays & Contactors",
+        "Contactors"
+      ],
+      "id": "cat_290d33820c73"
+    },
+    {
+      "name": "Contactor Accessories",
+      "url": "https://blackhawksupply.com/collections/electrical-relays-contactors-contactor-accessories",
+      "path": [
+        "Electrical",
+        "Relays & Contactors",
+        "Contactor Accessories"
+      ],
+      "id": "cat_ddce564d8844"
+    },
+    {
+      "name": "Lighting Accessories",
+      "url": "https://blackhawksupply.com/collections/electrical-lighting-lighting-accessories",
+      "path": [
+        "Electrical",
+        "Lighting",
+        "Lighting Accessories"
+      ],
+      "id": "cat_8c0c4de71f2d"
+    },
+    {
+      "name": "Lamps",
+      "url": "https://blackhawksupply.com/collections/electrical-lighting-lamps",
+      "path": [
+        "Electrical",
+        "Lighting",
+        "Lamps"
+      ],
+      "id": "cat_acbbca19acff"
+    },
+    {
+      "name": "Lighting Fixtures",
+      "url": "https://blackhawksupply.com/collections/electrical-lighting-lighting-fixtures",
+      "path": [
+        "Electrical",
+        "Lighting",
+        "Lighting Fixtures"
+      ],
+      "id": "cat_dd80ffa14a12"
+    },
+    {
+      "name": "Connectors & Accessories",
+      "url": "https://blackhawksupply.com/collections/electrical-connectors-connectors-accessories",
+      "path": [
+        "Electrical",
+        "Connectors",
+        "Connectors & Accessories"
+      ],
+      "id": "cat_6d16fd525c7b"
+    },
+    {
+      "name": "Wire Terminals & Splices",
+      "url": "https://blackhawksupply.com/collections/electrical-connectors-wire-terminals-splices",
+      "path": [
+        "Electrical",
+        "Connectors",
+        "Wire Terminals & Splices"
+      ],
+      "id": "cat_1e43cff7af99"
+    },
+    {
+      "name": "Terminal Blocks & Accessories",
+      "url": "https://blackhawksupply.com/collections/electrical-connectors-terminal-blocks-accessories",
+      "path": [
+        "Electrical",
+        "Connectors",
+        "Terminal Blocks & Accessories"
+      ],
+      "id": "cat_95507e25427f"
+    },
+    {
+      "name": "Control Transformers",
+      "url": "https://blackhawksupply.com/collections/electrical-transformers-control-transformers",
+      "path": [
+        "Electrical",
+        "Transformers",
+        "Control Transformers"
+      ],
+      "id": "cat_10b05fafaaa8"
+    },
+    {
+      "name": "Power Transformers",
+      "url": "https://blackhawksupply.com/collections/electrical-transformers-power-transformers",
+      "path": [
+        "Electrical",
+        "Transformers",
+        "Power Transformers"
+      ],
+      "id": "cat_a27fa40c11e1"
+    },
+    {
+      "name": "Inductors",
+      "url": "https://blackhawksupply.com/collections/electrical-resistors-inductors-inductors",
+      "path": [
+        "Electrical",
+        "Resistors & Inductors",
+        "Inductors"
+      ],
+      "id": "cat_5c948c1df319"
+    },
+    {
+      "name": "Resistors",
+      "url": "https://blackhawksupply.com/collections/electrical-resistors-inductors-resistors",
+      "path": [
+        "Electrical",
+        "Resistors & Inductors",
+        "Resistors"
+      ],
+      "id": "cat_0edc941eed1b"
+    },
+    {
+      "name": "Access Control",
+      "url": "https://blackhawksupply.com/collections/electrical-alarms-security-signaling-access-control",
+      "path": [
+        "Electrical",
+        "Alarms, Security & Signaling",
+        "Access Control"
+      ],
+      "id": "cat_5c38d89d6730"
+    },
+    {
+      "name": "Signaling Devices",
+      "url": "https://blackhawksupply.com/collections/electrical-alarms-security-signaling-signaling-devices",
+      "path": [
+        "Electrical",
+        "Alarms, Security & Signaling",
+        "Signaling Devices"
+      ],
+      "id": "cat_9bd428de6021"
+    }
+  ]
+}
