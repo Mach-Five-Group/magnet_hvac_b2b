@@ -11,7 +11,7 @@
       "item": {
         "@type": "ItemList",
         "name": "HVAC & Controls",
-        "url": "https://pocketling.com/pages/hvac-supplies",
+        "url": "https://blackhawksupply.com/pages/hvac-supplies",
         "identifier": "hvac-supplies",
         "numberOfItems": 5,
         "itemListElement": [
@@ -21,7 +21,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Air Quality & Ventilation",
-              "url": "https://pocketling.com/collections/hvac-air-quality-ventilation",
+              "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation",
               "identifier": "hvac-air-quality-ventilation",
               "numberOfItems": 15,
               "itemListElement": [
@@ -31,7 +31,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Humidifier Accessories",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-humidifier-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-humidifier-accessories",
                     "identifier": "hvac-air-quality-ventilation-humidifier-accessories"
                   }
                 },
@@ -41,7 +41,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Dehumidifiers",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-dehumidifiers",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-dehumidifiers",
                     "identifier": "hvac-air-quality-ventilation-dehumidifiers"
                   }
                 },
@@ -51,7 +51,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Venting Supplies & Accessories",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-venting-supplies-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-venting-supplies-accessories",
                     "identifier": "hvac-air-quality-ventilation-venting-supplies-accessories"
                   }
                 },
@@ -61,7 +61,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Air Curtain Accessories",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-air-curtain-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-curtain-accessories",
                     "identifier": "hvac-air-quality-ventilation-air-curtain-accessories"
                   }
                 },
@@ -71,7 +71,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Grilles, Registers & Diffusers",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-grilles-registers-diffusers",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-grilles-registers-diffusers",
                     "identifier": "hvac-air-quality-ventilation-grilles-registers-diffusers"
                   }
                 },
@@ -81,7 +81,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Air Cleaners & Purifiers",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-air-cleaners-purifiers",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-cleaners-purifiers",
                     "identifier": "hvac-air-quality-ventilation-air-cleaners-purifiers"
                   }
                 },
@@ -91,7 +91,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Dampers & Louvers",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-dampers-louvers",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-dampers-louvers",
                     "identifier": "hvac-air-quality-ventilation-dampers-louvers"
                   }
                 },
@@ -101,7 +101,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Ventilation Fans",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-ventilation-fans",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-ventilation-fans",
                     "identifier": "hvac-air-quality-ventilation-ventilation-fans"
                   }
                 },
@@ -111,7 +111,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Air Filters",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-air-filters",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-filters",
                     "identifier": "hvac-air-quality-ventilation-air-filters"
                   }
                 },
@@ -121,7 +121,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Ducts & Fittings",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-ducts-fittings",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-ducts-fittings",
                     "identifier": "hvac-air-quality-ventilation-ducts-fittings"
                   }
                 },
@@ -131,7 +131,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Exhaust Fans",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-exhaust-fans",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-exhaust-fans",
                     "identifier": "hvac-air-quality-ventilation-exhaust-fans"
                   }
                 },
@@ -141,7 +141,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Dehumidifier Accessories",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-dehumidifier-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-dehumidifier-accessories",
                     "identifier": "hvac-air-quality-ventilation-dehumidifier-accessories"
                   }
                 },
@@ -151,7 +151,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Air Filter Accessories",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-air-filter-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-filter-accessories",
                     "identifier": "hvac-air-quality-ventilation-air-filter-accessories"
                   }
                 },
@@ -161,7 +161,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Humidifiers",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-humidifiers",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-humidifiers",
                     "identifier": "hvac-air-quality-ventilation-humidifiers"
                   }
                 },
@@ -171,7 +171,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Air Curtains",
-                    "url": "https://pocketling.com/collections/hvac-air-quality-ventilation-air-curtains",
+                    "url": "https://blackhawksupply.com/collections/hvac-air-quality-ventilation-air-curtains",
                     "identifier": "hvac-air-quality-ventilation-air-curtains"
                   }
                 }
@@ -184,7 +184,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Heating & Cooling",
-              "url": "https://pocketling.com/collections/hvac-heating-cooling",
+              "url": "https://blackhawksupply.com/collections/hvac-heating-cooling",
               "identifier": "hvac-heating-cooling",
               "numberOfItems": 12,
               "itemListElement": [
@@ -194,7 +194,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Heat Pump Accessories",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-heat-pump-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-pump-accessories",
                     "identifier": "hvac-heating-cooling-heat-pump-accessories"
                   }
                 },
@@ -204,7 +204,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Heater Accessories",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-heater-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heater-accessories",
                     "identifier": "hvac-heating-cooling-heater-accessories"
                   }
                 },
@@ -214,7 +214,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Air Conditioning Systems",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-air-conditioning-systems",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-air-conditioning-systems",
                     "identifier": "hvac-heating-cooling-air-conditioning-systems"
                   }
                 },
@@ -224,7 +224,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Heaters",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-heaters",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heaters",
                     "identifier": "hvac-heating-cooling-heaters"
                   }
                 },
@@ -234,7 +234,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Refrigeration",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-refrigeration",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-refrigeration",
                     "identifier": "hvac-heating-cooling-refrigeration"
                   }
                 },
@@ -244,7 +244,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "HVAC Coils",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-hvac-coils",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-hvac-coils",
                     "identifier": "hvac-heating-cooling-hvac-coils"
                   }
                 },
@@ -254,7 +254,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Furnace Accessories",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-furnace-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-furnace-accessories",
                     "identifier": "hvac-heating-cooling-furnace-accessories"
                   }
                 },
@@ -264,7 +264,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Heat Exchanger Accessories",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-heat-exchanger-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-exchanger-accessories",
                     "identifier": "hvac-heating-cooling-heat-exchanger-accessories"
                   }
                 },
@@ -274,7 +274,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Heat Pumps",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-heat-pumps",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-pumps",
                     "identifier": "hvac-heating-cooling-heat-pumps"
                   }
                 },
@@ -284,7 +284,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Steam Systems",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-steam-systems",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-steam-systems",
                     "identifier": "hvac-heating-cooling-steam-systems"
                   }
                 },
@@ -294,7 +294,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Furnaces",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-furnaces",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-furnaces",
                     "identifier": "hvac-heating-cooling-furnaces"
                   }
                 },
@@ -304,7 +304,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Heat Exchangers",
-                    "url": "https://pocketling.com/collections/hvac-heating-cooling-heat-exchangers",
+                    "url": "https://blackhawksupply.com/collections/hvac-heating-cooling-heat-exchangers",
                     "identifier": "hvac-heating-cooling-heat-exchangers"
                   }
                 }
@@ -317,7 +317,7 @@
             "item": {
               "@type": "ItemList",
               "name": "HVAC Controls",
-              "url": "https://pocketling.com/collections/hvac-hvac-controls",
+              "url": "https://blackhawksupply.com/collections/hvac-hvac-controls",
               "identifier": "hvac-hvac-controls",
               "numberOfItems": 9,
               "itemListElement": [
@@ -327,7 +327,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Thermostats",
-                    "url": "https://pocketling.com/collections/hvac-hvac-controls-thermostats",
+                    "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-thermostats",
                     "identifier": "hvac-hvac-controls-thermostats"
                   }
                 },
@@ -337,7 +337,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "HVAC Switches",
-                    "url": "https://pocketling.com/collections/hvac-hvac-controls-hvac-switches",
+                    "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-switches",
                     "identifier": "hvac-hvac-controls-hvac-switches"
                   }
                 },
@@ -347,7 +347,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "HVAC Valves",
-                    "url": "https://pocketling.com/collections/hvac-hvac-controls-hvac-valves",
+                    "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-valves",
                     "identifier": "hvac-hvac-controls-hvac-valves"
                   }
                 },
@@ -357,7 +357,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Control Boards",
-                    "url": "https://pocketling.com/collections/hvac-hvac-controls-control-boards",
+                    "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-control-boards",
                     "identifier": "hvac-hvac-controls-control-boards"
                   }
                 },
@@ -367,7 +367,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "HVAC Controllers",
-                    "url": "https://pocketling.com/collections/hvac-hvac-controls-hvac-controllers",
+                    "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-controllers",
                     "identifier": "hvac-hvac-controls-hvac-controllers"
                   }
                 },
@@ -377,7 +377,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "HVAC Sensors",
-                    "url": "https://pocketling.com/collections/hvac-hvac-controls-hvac-sensors",
+                    "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-sensors",
                     "identifier": "hvac-hvac-controls-hvac-sensors"
                   }
                 },
@@ -387,7 +387,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "HVAC Actuators",
-                    "url": "https://pocketling.com/collections/hvac-hvac-controls-hvac-actuators",
+                    "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-actuators",
                     "identifier": "hvac-hvac-controls-hvac-actuators"
                   }
                 },
@@ -397,7 +397,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "HVAC Actuator Parts & Accessories",
-                    "url": "https://pocketling.com/collections/hvac-hvac-controls-hvac-actuator-parts-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-hvac-actuator-parts-accessories",
                     "identifier": "hvac-hvac-controls-hvac-actuator-parts-accessories"
                   }
                 },
@@ -407,7 +407,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Aquastats",
-                    "url": "https://pocketling.com/collections/hvac-hvac-controls-aquastats",
+                    "url": "https://blackhawksupply.com/collections/hvac-hvac-controls-aquastats",
                     "identifier": "hvac-hvac-controls-aquastats"
                   }
                 }
@@ -420,7 +420,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Hydronics",
-              "url": "https://pocketling.com/collections/hvac-hydronics",
+              "url": "https://blackhawksupply.com/collections/hvac-hydronics",
               "identifier": "hvac-hydronics",
               "numberOfItems": 8,
               "itemListElement": [
@@ -430,7 +430,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Boiler Accessories",
-                    "url": "https://pocketling.com/collections/hvac-hydronics-boiler-accessories",
+                    "url": "https://blackhawksupply.com/collections/hvac-hydronics-boiler-accessories",
                     "identifier": "hvac-hydronics-boiler-accessories"
                   }
                 },
@@ -440,7 +440,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Radiant Heating Systems",
-                    "url": "https://pocketling.com/collections/hvac-hydronics-radiant-heating-systems",
+                    "url": "https://blackhawksupply.com/collections/hvac-hydronics-radiant-heating-systems",
                     "identifier": "hvac-hydronics-radiant-heating-systems"
                   }
                 },
@@ -450,7 +450,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Boilers",
-                    "url": "https://pocketling.com/collections/hvac-hydronics-boilers",
+                    "url": "https://blackhawksupply.com/collections/hvac-hydronics-boilers",
                     "identifier": "hvac-hydronics-boilers"
                   }
                 },
@@ -460,7 +460,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Fan Convectors",
-                    "url": "https://pocketling.com/collections/hvac-hydronics-fan-convectors",
+                    "url": "https://blackhawksupply.com/collections/hvac-hydronics-fan-convectors",
                     "identifier": "hvac-hydronics-fan-convectors"
                   }
                 },
@@ -470,7 +470,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Hydronic Manifolds",
-                    "url": "https://pocketling.com/collections/hvac-hydronics-hydronic-manifolds",
+                    "url": "https://blackhawksupply.com/collections/hvac-hydronics-hydronic-manifolds",
                     "identifier": "hvac-hydronics-hydronic-manifolds"
                   }
                 },
@@ -480,7 +480,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pumps & Circulators",
-                    "url": "https://pocketling.com/collections/hvac-hydronics-pumps-circulators",
+                    "url": "https://blackhawksupply.com/collections/hvac-hydronics-pumps-circulators",
                     "identifier": "hvac-hydronics-pumps-circulators"
                   }
                 },
@@ -490,7 +490,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Air & Dirt Separation",
-                    "url": "https://pocketling.com/collections/hvac-hydronics-air-dirt-separation",
+                    "url": "https://blackhawksupply.com/collections/hvac-hydronics-air-dirt-separation",
                     "identifier": "hvac-hydronics-air-dirt-separation"
                   }
                 },
@@ -500,7 +500,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Expansion Tanks",
-                    "url": "https://pocketling.com/collections/hvac-hydronics-expansion-tanks",
+                    "url": "https://blackhawksupply.com/collections/hvac-hydronics-expansion-tanks",
                     "identifier": "hvac-hydronics-expansion-tanks"
                   }
                 }
@@ -513,7 +513,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Instrumentation & Measurement",
-              "url": "https://pocketling.com/collections/hvac-instrumentation-measurement",
+              "url": "https://blackhawksupply.com/collections/hvac-instrumentation-measurement",
               "identifier": "hvac-instrumentation-measurement",
               "numberOfItems": 2,
               "itemListElement": [
@@ -523,7 +523,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Flow & Level Measurement",
-                    "url": "https://pocketling.com/collections/hvac-instrumentation-measurement-flow-level-measurement",
+                    "url": "https://blackhawksupply.com/collections/hvac-instrumentation-measurement-flow-level-measurement",
                     "identifier": "hvac-instrumentation-measurement-flow-level-measurement"
                   }
                 },
@@ -533,7 +533,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pressure & Temperature Measurement",
-                    "url": "https://pocketling.com/collections/hvac-instrumentation-measurement-pressure-temperature-measurement",
+                    "url": "https://blackhawksupply.com/collections/hvac-instrumentation-measurement-pressure-temperature-measurement",
                     "identifier": "hvac-instrumentation-measurement-pressure-temperature-measurement"
                   }
                 }
@@ -549,7 +549,7 @@
       "item": {
         "@type": "ItemList",
         "name": "Plumbing",
-        "url": "https://pocketling.com/pages/plumbing-supplies",
+        "url": "https://blackhawksupply.com/pages/plumbing-supplies",
         "identifier": "plumbing-supplies",
         "numberOfItems": 8,
         "itemListElement": [
@@ -559,7 +559,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Pipes & Fittings",
-              "url": "https://pocketling.com/collections/plumbing-pipes-fittings",
+              "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings",
               "identifier": "plumbing-pipes-fittings",
               "numberOfItems": 17,
               "itemListElement": [
@@ -569,7 +569,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Bushings",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-bushings",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-bushings",
                     "identifier": "plumbing-pipes-fittings-pipe-bushings"
                   }
                 },
@@ -579,7 +579,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Tees",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-tees",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-tees",
                     "identifier": "plumbing-pipes-fittings-pipe-tees"
                   }
                 },
@@ -589,7 +589,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pneumatic Fittings",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pneumatic-fittings",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pneumatic-fittings",
                     "identifier": "plumbing-pipes-fittings-pneumatic-fittings"
                   }
                 },
@@ -599,7 +599,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Adapters",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-adapters",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-adapters",
                     "identifier": "plumbing-pipes-fittings-pipe-adapters"
                   }
                 },
@@ -609,7 +609,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Hydraulic Fittings",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-hydraulic-fittings",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-hydraulic-fittings",
                     "identifier": "plumbing-pipes-fittings-hydraulic-fittings"
                   }
                 },
@@ -619,7 +619,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Bulkhead Fittings",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-bulkhead-fittings",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-bulkhead-fittings",
                     "identifier": "plumbing-pipes-fittings-bulkhead-fittings"
                   }
                 },
@@ -629,7 +629,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipes & Tubes",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipes-tubes",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipes-tubes",
                     "identifier": "plumbing-pipes-fittings-pipes-tubes"
                   }
                 },
@@ -639,7 +639,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Unions",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-unions",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-unions",
                     "identifier": "plumbing-pipes-fittings-pipe-unions"
                   }
                 },
@@ -649,7 +649,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Nipples",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-nipples",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-nipples",
                     "identifier": "plumbing-pipes-fittings-pipe-nipples"
                   }
                 },
@@ -659,7 +659,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Elbows",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-elbows",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-elbows",
                     "identifier": "plumbing-pipes-fittings-pipe-elbows"
                   }
                 },
@@ -669,7 +669,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Saddles & Saddle Tees",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-saddles-saddle-tees",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-saddles-saddle-tees",
                     "identifier": "plumbing-pipes-fittings-pipe-saddles-saddle-tees"
                   }
                 },
@@ -679,7 +679,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Flanges",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-flanges",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-flanges",
                     "identifier": "plumbing-pipes-fittings-pipe-flanges"
                   }
                 },
@@ -689,7 +689,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Couplings",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-couplings",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-couplings",
                     "identifier": "plumbing-pipes-fittings-pipe-couplings"
                   }
                 },
@@ -699,7 +699,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Reducers",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-reducers",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-reducers",
                     "identifier": "plumbing-pipes-fittings-pipe-reducers"
                   }
                 },
@@ -709,7 +709,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Caps & Plugs",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-caps-plugs",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-caps-plugs",
                     "identifier": "plumbing-pipes-fittings-pipe-caps-plugs"
                   }
                 },
@@ -719,7 +719,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Cross Fittings",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-cross-fittings",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-cross-fittings",
                     "identifier": "plumbing-pipes-fittings-pipe-cross-fittings"
                   }
                 },
@@ -729,7 +729,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Wyes",
-                    "url": "https://pocketling.com/collections/plumbing-pipes-fittings-pipe-wyes",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pipes-fittings-pipe-wyes",
                     "identifier": "plumbing-pipes-fittings-pipe-wyes"
                   }
                 }
@@ -742,7 +742,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Water Filtration",
-              "url": "https://pocketling.com/collections/plumbing-water-filtration",
+              "url": "https://blackhawksupply.com/collections/plumbing-water-filtration",
               "identifier": "plumbing-water-filtration",
               "numberOfItems": 4,
               "itemListElement": [
@@ -752,7 +752,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Filter Cartridges",
-                    "url": "https://pocketling.com/collections/plumbing-water-filtration-filter-cartridges",
+                    "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-filter-cartridges",
                     "identifier": "plumbing-water-filtration-filter-cartridges"
                   }
                 },
@@ -762,7 +762,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Strainer & Filter Accessories",
-                    "url": "https://pocketling.com/collections/plumbing-water-filtration-strainer-filter-accessories",
+                    "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-strainer-filter-accessories",
                     "identifier": "plumbing-water-filtration-strainer-filter-accessories"
                   }
                 },
@@ -772,7 +772,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Strainers",
-                    "url": "https://pocketling.com/collections/plumbing-water-filtration-strainers",
+                    "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-strainers",
                     "identifier": "plumbing-water-filtration-strainers"
                   }
                 },
@@ -782,7 +782,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Filter Bags",
-                    "url": "https://pocketling.com/collections/plumbing-water-filtration-filter-bags",
+                    "url": "https://blackhawksupply.com/collections/plumbing-water-filtration-filter-bags",
                     "identifier": "plumbing-water-filtration-filter-bags"
                   }
                 }
@@ -795,7 +795,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Pumps",
-              "url": "https://pocketling.com/collections/plumbing-pumps",
+              "url": "https://blackhawksupply.com/collections/plumbing-pumps",
               "identifier": "plumbing-pumps",
               "numberOfItems": 4,
               "itemListElement": [
@@ -805,7 +805,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Centrifugal Pumps",
-                    "url": "https://pocketling.com/collections/plumbing-pumps-centrifugal-pumps",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pumps-centrifugal-pumps",
                     "identifier": "plumbing-pumps-centrifugal-pumps"
                   }
                 },
@@ -815,7 +815,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Standard Pump Parts & Accessories",
-                    "url": "https://pocketling.com/collections/plumbing-pumps-standard-pump-parts-accessories",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pumps-standard-pump-parts-accessories",
                     "identifier": "plumbing-pumps-standard-pump-parts-accessories"
                   }
                 },
@@ -825,7 +825,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pump Repair Kits",
-                    "url": "https://pocketling.com/collections/plumbing-pumps-pump-repair-kits",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pumps-pump-repair-kits",
                     "identifier": "plumbing-pumps-pump-repair-kits"
                   }
                 },
@@ -835,7 +835,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Diaphragm Pumps",
-                    "url": "https://pocketling.com/collections/plumbing-pumps-diaphragm-pumps",
+                    "url": "https://blackhawksupply.com/collections/plumbing-pumps-diaphragm-pumps",
                     "identifier": "plumbing-pumps-diaphragm-pumps"
                   }
                 }
@@ -848,7 +848,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Plumbing Repair & Installation",
-              "url": "https://pocketling.com/collections/plumbing-plumbing-repair-installation",
+              "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation",
               "identifier": "plumbing-plumbing-repair-installation",
               "numberOfItems": 4,
               "itemListElement": [
@@ -858,7 +858,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pipe Hangers & Supports",
-                    "url": "https://pocketling.com/collections/plumbing-plumbing-repair-installation-pipe-hangers-supports",
+                    "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-pipe-hangers-supports",
                     "identifier": "plumbing-plumbing-repair-installation-pipe-hangers-supports"
                   }
                 },
@@ -868,7 +868,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Gaskets & Seals",
-                    "url": "https://pocketling.com/collections/plumbing-plumbing-repair-installation-gaskets-seals",
+                    "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-gaskets-seals",
                     "identifier": "plumbing-plumbing-repair-installation-gaskets-seals"
                   }
                 },
@@ -878,7 +878,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Thread Sealants & Tapes",
-                    "url": "https://pocketling.com/collections/plumbing-plumbing-repair-installation-thread-sealants-tapes",
+                    "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-thread-sealants-tapes",
                     "identifier": "plumbing-plumbing-repair-installation-thread-sealants-tapes"
                   }
                 },
@@ -888,7 +888,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Solvent Cements",
-                    "url": "https://pocketling.com/collections/plumbing-plumbing-repair-installation-solvent-cements",
+                    "url": "https://blackhawksupply.com/collections/plumbing-plumbing-repair-installation-solvent-cements",
                     "identifier": "plumbing-plumbing-repair-installation-solvent-cements"
                   }
                 }
@@ -901,7 +901,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Plumbing Fixtures & Drains",
-              "url": "https://pocketling.com/collections/plumbing-plumbing-fixtures-drains",
+              "url": "https://blackhawksupply.com/collections/plumbing-plumbing-fixtures-drains",
               "identifier": "plumbing-plumbing-fixtures-drains",
               "numberOfItems": 3,
               "itemListElement": [
@@ -911,7 +911,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Appliance Supply Line Connectors",
-                    "url": "https://pocketling.com/collections/plumbing-plumbing-fixtures-drains-appliance-supply-line-connectors",
+                    "url": "https://blackhawksupply.com/collections/plumbing-plumbing-fixtures-drains-appliance-supply-line-connectors",
                     "identifier": "plumbing-plumbing-fixtures-drains-appliance-supply-line-connectors"
                   }
                 },
@@ -921,7 +921,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Faucets",
-                    "url": "https://pocketling.com/collections/plumbing-plumbing-fixtures-drains-faucets",
+                    "url": "https://blackhawksupply.com/collections/plumbing-plumbing-fixtures-drains-faucets",
                     "identifier": "plumbing-plumbing-fixtures-drains-faucets"
                   }
                 },
@@ -931,7 +931,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Sink Drains",
-                    "url": "https://pocketling.com/collections/plumbing-plumbing-fixtures-drains-sink-drains",
+                    "url": "https://blackhawksupply.com/collections/plumbing-plumbing-fixtures-drains-sink-drains",
                     "identifier": "plumbing-plumbing-fixtures-drains-sink-drains"
                   }
                 }
@@ -944,7 +944,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Hoses & Fittings",
-              "url": "https://pocketling.com/collections/plumbing-hoses-fittings",
+              "url": "https://blackhawksupply.com/collections/plumbing-hoses-fittings",
               "identifier": "plumbing-hoses-fittings",
               "numberOfItems": 2,
               "itemListElement": [
@@ -954,7 +954,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Hoses & Hose Assemblies",
-                    "url": "https://pocketling.com/collections/plumbing-hoses-fittings-hoses-hose-assemblies",
+                    "url": "https://blackhawksupply.com/collections/plumbing-hoses-fittings-hoses-hose-assemblies",
                     "identifier": "plumbing-hoses-fittings-hoses-hose-assemblies"
                   }
                 },
@@ -964,7 +964,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Hose Fittings",
-                    "url": "https://pocketling.com/collections/plumbing-hoses-fittings-hose-fittings",
+                    "url": "https://blackhawksupply.com/collections/plumbing-hoses-fittings-hose-fittings",
                     "identifier": "plumbing-hoses-fittings-hose-fittings"
                   }
                 }
@@ -977,7 +977,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Water Heaters",
-              "url": "https://pocketling.com/collections/plumbing-water-heaters",
+              "url": "https://blackhawksupply.com/collections/plumbing-water-heaters",
               "identifier": "plumbing-water-heaters"
             }
           },
@@ -987,7 +987,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Water Heater Parts & Accessories",
-              "url": "https://pocketling.com/collections/plumbing-water-heater-parts-accessories",
+              "url": "https://blackhawksupply.com/collections/plumbing-water-heater-parts-accessories",
               "identifier": "plumbing-water-heater-parts-accessories"
             }
           }
@@ -1000,7 +1000,7 @@
       "item": {
         "@type": "ItemList",
         "name": "Electrical",
-        "url": "https://pocketling.com/pages/electrical",
+        "url": "https://blackhawksupply.com/pages/electrical",
         "identifier": "electrical",
         "numberOfItems": 14,
         "itemListElement": [
@@ -1010,7 +1010,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Switches",
-              "url": "https://pocketling.com/collections/electrical-switches",
+              "url": "https://blackhawksupply.com/collections/electrical-switches",
               "identifier": "electrical-switches",
               "numberOfItems": 10,
               "itemListElement": [
@@ -1020,7 +1020,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Rocker Switches",
-                    "url": "https://pocketling.com/collections/electrical-switches-rocker-switches",
+                    "url": "https://blackhawksupply.com/collections/electrical-switches-rocker-switches",
                     "identifier": "electrical-switches-rocker-switches"
                   }
                 },
@@ -1030,7 +1030,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Door & Interlock Switches",
-                    "url": "https://pocketling.com/collections/electrical-switches-door-interlock-switches",
+                    "url": "https://blackhawksupply.com/collections/electrical-switches-door-interlock-switches",
                     "identifier": "electrical-switches-door-interlock-switches"
                   }
                 },
@@ -1040,7 +1040,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Pushbutton Switches",
-                    "url": "https://pocketling.com/collections/electrical-switches-pushbutton-switches",
+                    "url": "https://blackhawksupply.com/collections/electrical-switches-pushbutton-switches",
                     "identifier": "electrical-switches-pushbutton-switches"
                   }
                 },
@@ -1050,7 +1050,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Control Stations",
-                    "url": "https://pocketling.com/collections/electrical-switches-control-stations",
+                    "url": "https://blackhawksupply.com/collections/electrical-switches-control-stations",
                     "identifier": "electrical-switches-control-stations"
                   }
                 },
@@ -1060,7 +1060,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Switch Accessories & Components",
-                    "url": "https://pocketling.com/collections/electrical-switches-switch-accessories-components",
+                    "url": "https://blackhawksupply.com/collections/electrical-switches-switch-accessories-components",
                     "identifier": "electrical-switches-switch-accessories-components"
                   }
                 },
@@ -1070,7 +1070,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Key Switches & Selector Switches",
-                    "url": "https://pocketling.com/collections/electrical-switches-key-switches-selector-switches",
+                    "url": "https://blackhawksupply.com/collections/electrical-switches-key-switches-selector-switches",
                     "identifier": "electrical-switches-key-switches-selector-switches"
                   }
                 },
@@ -1080,7 +1080,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Foot Switches",
-                    "url": "https://pocketling.com/collections/electrical-switches-foot-switches",
+                    "url": "https://blackhawksupply.com/collections/electrical-switches-foot-switches",
                     "identifier": "electrical-switches-foot-switches"
                   }
                 },
@@ -1090,7 +1090,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Toggle & Slide Switches",
-                    "url": "https://pocketling.com/collections/electrical-switches-toggle-slide-switches",
+                    "url": "https://blackhawksupply.com/collections/electrical-switches-toggle-slide-switches",
                     "identifier": "electrical-switches-toggle-slide-switches"
                   }
                 },
@@ -1100,7 +1100,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Rotary Switches",
-                    "url": "https://pocketling.com/collections/electrical-switches-rotary-switches",
+                    "url": "https://blackhawksupply.com/collections/electrical-switches-rotary-switches",
                     "identifier": "electrical-switches-rotary-switches"
                   }
                 },
@@ -1110,7 +1110,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Limit & Position Switches",
-                    "url": "https://pocketling.com/collections/electrical-switches-limit-position-switches",
+                    "url": "https://blackhawksupply.com/collections/electrical-switches-limit-position-switches",
                     "identifier": "electrical-switches-limit-position-switches"
                   }
                 }
@@ -1123,7 +1123,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Power Monitoring",
-              "url": "https://pocketling.com/collections/electrical-power-monitoring",
+              "url": "https://blackhawksupply.com/collections/electrical-power-monitoring",
               "identifier": "electrical-power-monitoring",
               "numberOfItems": 8,
               "itemListElement": [
@@ -1133,7 +1133,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Current Transformers",
-                    "url": "https://pocketling.com/collections/electrical-power-monitoring-current-transformers",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-current-transformers",
                     "identifier": "electrical-power-monitoring-current-transformers"
                   }
                 },
@@ -1143,7 +1143,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Energy & Power Meters",
-                    "url": "https://pocketling.com/collections/electrical-power-monitoring-energy-power-meters",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-energy-power-meters",
                     "identifier": "electrical-power-monitoring-energy-power-meters"
                   }
                 },
@@ -1153,7 +1153,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Panel Meters",
-                    "url": "https://pocketling.com/collections/electrical-power-monitoring-panel-meters",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-panel-meters",
                     "identifier": "electrical-power-monitoring-panel-meters"
                   }
                 },
@@ -1163,7 +1163,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Electrical Testers",
-                    "url": "https://pocketling.com/collections/electrical-power-monitoring-electrical-testers",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-electrical-testers",
                     "identifier": "electrical-power-monitoring-electrical-testers"
                   }
                 },
@@ -1173,7 +1173,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Data Loggers",
-                    "url": "https://pocketling.com/collections/electrical-power-monitoring-data-loggers",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-data-loggers",
                     "identifier": "electrical-power-monitoring-data-loggers"
                   }
                 },
@@ -1183,7 +1183,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Multimeters",
-                    "url": "https://pocketling.com/collections/electrical-power-monitoring-multimeters",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-multimeters",
                     "identifier": "electrical-power-monitoring-multimeters"
                   }
                 },
@@ -1193,7 +1193,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Clamp Meters",
-                    "url": "https://pocketling.com/collections/electrical-power-monitoring-clamp-meters",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-clamp-meters",
                     "identifier": "electrical-power-monitoring-clamp-meters"
                   }
                 },
@@ -1203,7 +1203,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Current Transducers",
-                    "url": "https://pocketling.com/collections/electrical-power-monitoring-current-transducers",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-monitoring-current-transducers",
                     "identifier": "electrical-power-monitoring-current-transducers"
                   }
                 }
@@ -1216,7 +1216,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Wire & Cable",
-              "url": "https://pocketling.com/collections/electrical-wire-cable",
+              "url": "https://blackhawksupply.com/collections/electrical-wire-cable",
               "identifier": "electrical-wire-cable",
               "numberOfItems": 6,
               "itemListElement": [
@@ -1226,7 +1226,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Data & Communication Cables",
-                    "url": "https://pocketling.com/collections/electrical-wire-cable-data-communication-cables",
+                    "url": "https://blackhawksupply.com/collections/electrical-wire-cable-data-communication-cables",
                     "identifier": "electrical-wire-cable-data-communication-cables"
                   }
                 },
@@ -1236,7 +1236,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Cable Management",
-                    "url": "https://pocketling.com/collections/electrical-wire-cable-cable-management",
+                    "url": "https://blackhawksupply.com/collections/electrical-wire-cable-cable-management",
                     "identifier": "electrical-wire-cable-cable-management"
                   }
                 },
@@ -1246,7 +1246,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Instrumentation Cables",
-                    "url": "https://pocketling.com/collections/electrical-wire-cable-instrumentation-cables",
+                    "url": "https://blackhawksupply.com/collections/electrical-wire-cable-instrumentation-cables",
                     "identifier": "electrical-wire-cable-instrumentation-cables"
                   }
                 },
@@ -1256,7 +1256,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Power Cables",
-                    "url": "https://pocketling.com/collections/electrical-wire-cable-power-cables",
+                    "url": "https://blackhawksupply.com/collections/electrical-wire-cable-power-cables",
                     "identifier": "electrical-wire-cable-power-cables"
                   }
                 },
@@ -1266,7 +1266,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Cable Assemblies",
-                    "url": "https://pocketling.com/collections/electrical-wire-cable-cable-assemblies",
+                    "url": "https://blackhawksupply.com/collections/electrical-wire-cable-cable-assemblies",
                     "identifier": "electrical-wire-cable-cable-assemblies"
                   }
                 },
@@ -1276,7 +1276,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Control Cables",
-                    "url": "https://pocketling.com/collections/electrical-wire-cable-control-cables",
+                    "url": "https://blackhawksupply.com/collections/electrical-wire-cable-control-cables",
                     "identifier": "electrical-wire-cable-control-cables"
                   }
                 }
@@ -1289,7 +1289,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Power Supplies",
-              "url": "https://pocketling.com/collections/electrical-power-supplies",
+              "url": "https://blackhawksupply.com/collections/electrical-power-supplies",
               "identifier": "electrical-power-supplies",
               "numberOfItems": 4,
               "itemListElement": [
@@ -1299,7 +1299,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "UPS",
-                    "url": "https://pocketling.com/collections/electrical-power-supplies-ups",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-supplies-ups",
                     "identifier": "electrical-power-supplies-ups"
                   }
                 },
@@ -1309,7 +1309,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Power Supply Accessories",
-                    "url": "https://pocketling.com/collections/electrical-power-supplies-power-supply-accessories",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-supplies-power-supply-accessories",
                     "identifier": "electrical-power-supplies-power-supply-accessories"
                   }
                 },
@@ -1319,7 +1319,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "AC Power Supplies",
-                    "url": "https://pocketling.com/collections/electrical-power-supplies-ac-power-supplies",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-supplies-ac-power-supplies",
                     "identifier": "electrical-power-supplies-ac-power-supplies"
                   }
                 },
@@ -1329,7 +1329,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "DC Power Supplies",
-                    "url": "https://pocketling.com/collections/electrical-power-supplies-dc-power-supplies",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-supplies-dc-power-supplies",
                     "identifier": "electrical-power-supplies-dc-power-supplies"
                   }
                 }
@@ -1342,7 +1342,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Power Distribution",
-              "url": "https://pocketling.com/collections/electrical-power-distribution",
+              "url": "https://blackhawksupply.com/collections/electrical-power-distribution",
               "identifier": "electrical-power-distribution",
               "numberOfItems": 4,
               "itemListElement": [
@@ -1352,7 +1352,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Panelboards & Load Centers",
-                    "url": "https://pocketling.com/collections/electrical-power-distribution-panelboards-load-centers",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-distribution-panelboards-load-centers",
                     "identifier": "electrical-power-distribution-panelboards-load-centers"
                   }
                 },
@@ -1362,7 +1362,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Power Protection",
-                    "url": "https://pocketling.com/collections/electrical-power-distribution-power-protection",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-distribution-power-protection",
                     "identifier": "electrical-power-distribution-power-protection"
                   }
                 },
@@ -1372,7 +1372,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Circuit Protection Accessories",
-                    "url": "https://pocketling.com/collections/electrical-power-distribution-circuit-protection-accessories",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-distribution-circuit-protection-accessories",
                     "identifier": "electrical-power-distribution-circuit-protection-accessories"
                   }
                 },
@@ -1382,7 +1382,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Power Distribution Units",
-                    "url": "https://pocketling.com/collections/electrical-power-distribution-power-distribution-units",
+                    "url": "https://blackhawksupply.com/collections/electrical-power-distribution-power-distribution-units",
                     "identifier": "electrical-power-distribution-power-distribution-units"
                   }
                 }
@@ -1395,7 +1395,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Network & Wireless",
-              "url": "https://pocketling.com/collections/electrical-network-wireless",
+              "url": "https://blackhawksupply.com/collections/electrical-network-wireless",
               "identifier": "electrical-network-wireless",
               "numberOfItems": 4,
               "itemListElement": [
@@ -1405,7 +1405,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Network Devices",
-                    "url": "https://pocketling.com/collections/electrical-network-wireless-network-devices",
+                    "url": "https://blackhawksupply.com/collections/electrical-network-wireless-network-devices",
                     "identifier": "electrical-network-wireless-network-devices"
                   }
                 },
@@ -1415,7 +1415,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Wireless Communication Devices",
-                    "url": "https://pocketling.com/collections/electrical-network-wireless-wireless-communication-devices",
+                    "url": "https://blackhawksupply.com/collections/electrical-network-wireless-wireless-communication-devices",
                     "identifier": "electrical-network-wireless-wireless-communication-devices"
                   }
                 },
@@ -1425,7 +1425,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "I/O Modules",
-                    "url": "https://pocketling.com/collections/electrical-network-wireless-i-o-modules",
+                    "url": "https://blackhawksupply.com/collections/electrical-network-wireless-i-o-modules",
                     "identifier": "electrical-network-wireless-i-o-modules"
                   }
                 },
@@ -1435,7 +1435,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Media Converters",
-                    "url": "https://pocketling.com/collections/electrical-network-wireless-media-converters",
+                    "url": "https://blackhawksupply.com/collections/electrical-network-wireless-media-converters",
                     "identifier": "electrical-network-wireless-media-converters"
                   }
                 }
@@ -1448,7 +1448,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Motors & Motor Controls",
-              "url": "https://pocketling.com/collections/electrical-motors-motor-controls",
+              "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls",
               "identifier": "electrical-motors-motor-controls",
               "numberOfItems": 4,
               "itemListElement": [
@@ -1458,7 +1458,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Motors",
-                    "url": "https://pocketling.com/collections/electrical-motors-motor-controls-motors",
+                    "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-motors",
                     "identifier": "electrical-motors-motor-controls-motors"
                   }
                 },
@@ -1468,7 +1468,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Motor Capacitors",
-                    "url": "https://pocketling.com/collections/electrical-motors-motor-controls-motor-capacitors",
+                    "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-motor-capacitors",
                     "identifier": "electrical-motors-motor-controls-motor-capacitors"
                   }
                 },
@@ -1478,7 +1478,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Motor Starters",
-                    "url": "https://pocketling.com/collections/electrical-motors-motor-controls-motor-starters",
+                    "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-motor-starters",
                     "identifier": "electrical-motors-motor-controls-motor-starters"
                   }
                 },
@@ -1488,7 +1488,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Variable Frequency Drives",
-                    "url": "https://pocketling.com/collections/electrical-motors-motor-controls-variable-frequency-drives",
+                    "url": "https://blackhawksupply.com/collections/electrical-motors-motor-controls-variable-frequency-drives",
                     "identifier": "electrical-motors-motor-controls-variable-frequency-drives"
                   }
                 }
@@ -1501,7 +1501,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Enclosures & Cabinets",
-              "url": "https://pocketling.com/collections/electrical-enclosures-cabinets",
+              "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets",
               "identifier": "electrical-enclosures-cabinets",
               "numberOfItems": 4,
               "itemListElement": [
@@ -1511,7 +1511,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Junction Boxes",
-                    "url": "https://pocketling.com/collections/electrical-enclosures-cabinets-junction-boxes",
+                    "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-junction-boxes",
                     "identifier": "electrical-enclosures-cabinets-junction-boxes"
                   }
                 },
@@ -1521,7 +1521,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Racks & Cabinets",
-                    "url": "https://pocketling.com/collections/electrical-enclosures-cabinets-racks-cabinets",
+                    "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-racks-cabinets",
                     "identifier": "electrical-enclosures-cabinets-racks-cabinets"
                   }
                 },
@@ -1531,7 +1531,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Electrical Enclosures",
-                    "url": "https://pocketling.com/collections/electrical-enclosures-cabinets-electrical-enclosures",
+                    "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-electrical-enclosures",
                     "identifier": "electrical-enclosures-cabinets-electrical-enclosures"
                   }
                 },
@@ -1541,7 +1541,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Electrical Enclosure Accessories",
-                    "url": "https://pocketling.com/collections/electrical-enclosures-cabinets-electrical-enclosure-accessories",
+                    "url": "https://blackhawksupply.com/collections/electrical-enclosures-cabinets-electrical-enclosure-accessories",
                     "identifier": "electrical-enclosures-cabinets-electrical-enclosure-accessories"
                   }
                 }
@@ -1554,7 +1554,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Relays & Contactors",
-              "url": "https://pocketling.com/collections/electrical-relays-contactors",
+              "url": "https://blackhawksupply.com/collections/electrical-relays-contactors",
               "identifier": "electrical-relays-contactors",
               "numberOfItems": 3,
               "itemListElement": [
@@ -1564,7 +1564,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Relays",
-                    "url": "https://pocketling.com/collections/electrical-relays-contactors-relays",
+                    "url": "https://blackhawksupply.com/collections/electrical-relays-contactors-relays",
                     "identifier": "electrical-relays-contactors-relays"
                   }
                 },
@@ -1574,7 +1574,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Contactors",
-                    "url": "https://pocketling.com/collections/electrical-relays-contactors-contactors",
+                    "url": "https://blackhawksupply.com/collections/electrical-relays-contactors-contactors",
                     "identifier": "electrical-relays-contactors-contactors"
                   }
                 },
@@ -1584,7 +1584,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Contactor Accessories",
-                    "url": "https://pocketling.com/collections/electrical-relays-contactors-contactor-accessories",
+                    "url": "https://blackhawksupply.com/collections/electrical-relays-contactors-contactor-accessories",
                     "identifier": "electrical-relays-contactors-contactor-accessories"
                   }
                 }
@@ -1597,7 +1597,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Lighting",
-              "url": "https://pocketling.com/collections/electrical-lighting",
+              "url": "https://blackhawksupply.com/collections/electrical-lighting",
               "identifier": "electrical-lighting",
               "numberOfItems": 3,
               "itemListElement": [
@@ -1607,7 +1607,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Lighting Accessories",
-                    "url": "https://pocketling.com/collections/electrical-lighting-lighting-accessories",
+                    "url": "https://blackhawksupply.com/collections/electrical-lighting-lighting-accessories",
                     "identifier": "electrical-lighting-lighting-accessories"
                   }
                 },
@@ -1617,7 +1617,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Lamps",
-                    "url": "https://pocketling.com/collections/electrical-lighting-lamps",
+                    "url": "https://blackhawksupply.com/collections/electrical-lighting-lamps",
                     "identifier": "electrical-lighting-lamps"
                   }
                 },
@@ -1627,7 +1627,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Lighting Fixtures",
-                    "url": "https://pocketling.com/collections/electrical-lighting-lighting-fixtures",
+                    "url": "https://blackhawksupply.com/collections/electrical-lighting-lighting-fixtures",
                     "identifier": "electrical-lighting-lighting-fixtures"
                   }
                 }
@@ -1640,7 +1640,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Connectors",
-              "url": "https://pocketling.com/collections/electrical-connectors",
+              "url": "https://blackhawksupply.com/collections/electrical-connectors",
               "identifier": "electrical-connectors",
               "numberOfItems": 3,
               "itemListElement": [
@@ -1650,7 +1650,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Connectors & Accessories",
-                    "url": "https://pocketling.com/collections/electrical-connectors-connectors-accessories",
+                    "url": "https://blackhawksupply.com/collections/electrical-connectors-connectors-accessories",
                     "identifier": "electrical-connectors-connectors-accessories"
                   }
                 },
@@ -1660,7 +1660,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Wire Terminals & Splices",
-                    "url": "https://pocketling.com/collections/electrical-connectors-wire-terminals-splices",
+                    "url": "https://blackhawksupply.com/collections/electrical-connectors-wire-terminals-splices",
                     "identifier": "electrical-connectors-wire-terminals-splices"
                   }
                 },
@@ -1670,7 +1670,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Terminal Blocks & Accessories",
-                    "url": "https://pocketling.com/collections/electrical-connectors-terminal-blocks-accessories",
+                    "url": "https://blackhawksupply.com/collections/electrical-connectors-terminal-blocks-accessories",
                     "identifier": "electrical-connectors-terminal-blocks-accessories"
                   }
                 }
@@ -1683,7 +1683,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Transformers",
-              "url": "https://pocketling.com/collections/electrical-transformers",
+              "url": "https://blackhawksupply.com/collections/electrical-transformers",
               "identifier": "electrical-transformers",
               "numberOfItems": 2,
               "itemListElement": [
@@ -1693,7 +1693,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Control Transformers",
-                    "url": "https://pocketling.com/collections/electrical-transformers-control-transformers",
+                    "url": "https://blackhawksupply.com/collections/electrical-transformers-control-transformers",
                     "identifier": "electrical-transformers-control-transformers"
                   }
                 },
@@ -1703,7 +1703,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Power Transformers",
-                    "url": "https://pocketling.com/collections/electrical-transformers-power-transformers",
+                    "url": "https://blackhawksupply.com/collections/electrical-transformers-power-transformers",
                     "identifier": "electrical-transformers-power-transformers"
                   }
                 }
@@ -1716,7 +1716,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Resistors & Inductors",
-              "url": "https://pocketling.com/collections/electrical-resistors-inductors",
+              "url": "https://blackhawksupply.com/collections/electrical-resistors-inductors",
               "identifier": "electrical-resistors-inductors",
               "numberOfItems": 2,
               "itemListElement": [
@@ -1726,7 +1726,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Inductors",
-                    "url": "https://pocketling.com/collections/electrical-resistors-inductors-inductors",
+                    "url": "https://blackhawksupply.com/collections/electrical-resistors-inductors-inductors",
                     "identifier": "electrical-resistors-inductors-inductors"
                   }
                 },
@@ -1736,7 +1736,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Resistors",
-                    "url": "https://pocketling.com/collections/electrical-resistors-inductors-resistors",
+                    "url": "https://blackhawksupply.com/collections/electrical-resistors-inductors-resistors",
                     "identifier": "electrical-resistors-inductors-resistors"
                   }
                 }
@@ -1749,7 +1749,7 @@
             "item": {
               "@type": "ItemList",
               "name": "Alarms, Security & Signaling",
-              "url": "https://pocketling.com/collections/electrical-alarms-security-signaling",
+              "url": "https://blackhawksupply.com/collections/electrical-alarms-security-signaling",
               "identifier": "electrical-alarms-security-signaling",
               "numberOfItems": 2,
               "itemListElement": [
@@ -1759,7 +1759,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Access Control",
-                    "url": "https://pocketling.com/collections/electrical-alarms-security-signaling-access-control",
+                    "url": "https://blackhawksupply.com/collections/electrical-alarms-security-signaling-access-control",
                     "identifier": "electrical-alarms-security-signaling-access-control"
                   }
                 },
@@ -1769,7 +1769,7 @@
                   "item": {
                     "@type": "ItemList",
                     "name": "Signaling Devices",
-                    "url": "https://pocketling.com/collections/electrical-alarms-security-signaling-signaling-devices",
+                    "url": "https://blackhawksupply.com/collections/electrical-alarms-security-signaling-signaling-devices",
                     "identifier": "electrical-alarms-security-signaling-signaling-devices"
                   }
                 }
